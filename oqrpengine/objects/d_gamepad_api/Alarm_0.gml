@@ -1,0 +1,1 @@
+gamepad_set_vibration(global.oqrp_gpmain, 0, 0)

@@ -1,0 +1,1 @@
+function show_console_message(text) {with (CONSOLE) {print(text)}}

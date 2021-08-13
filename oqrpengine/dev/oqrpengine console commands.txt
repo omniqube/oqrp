@@ -1,0 +1,77 @@
+OQRP Engine Console Commands --------------------------------------
+
+--- MAIN ---
+help // Displays a list of available commands.
+echo [args] // Displays the command argument.
+cls // Clears the screen.
+
+--- USEFUL ---
+room [room] // Immidiately spawns the player in the specified room. If left empty, returns current room.
+item [add|remove] [item] // Gives or removes an item from the player's inventory.
+stat_set [stat] [value] // Sets a player stat to a given value.
+
+--- GAME ---
+exit // Exits the game.
+restart // Restarts the game
+force_speed [fps] // Forces the game to run at a given FPS value.
+
+--- RENDER ---
+rd_hitbox [0|1] // Enables or disables hitbox visibility.
+rd_forceantialias [0|2|4|8] // Forces antialiasing of a given value.
+rd_vsync [0|1] // Enables or disables VSync.
+rd_bordercolor [color] // Changes the color of the border (unused space) of the screen.
+rd_fps [0|1] // Shows or hides the built-in FPS counter.
+rd_perfgraph [0|1] // Shows or hides the Engine Performance Graph.
+rd_audiobuffer [0|1] // Shows or hides the audio buffer diagram.
+
+--- DEBUG ---
+db_flushdraw // Flushes the draw events of objects.
+db_flushtextures // Flushes all textures.
+db_cleareffects // Cleares all effects from the screen.
+db_resetshader // Resets the shader.
+
+--- GML ---
+gl_compiled // Displays if the game is compiled or not.
+gl_deltatime // Displays Lag Delta Time.
+gl_version // Displays the GM:S runtime version.
+
+--- OQRP ---
+oq_info // Displays information about the OQRP Engine.
+oq_gameinfo // Displays information about the game.
+oq_datetime // Displays the current date and time.
+oq_runtime // Displays the amount of time in milliseconds that the Engine has been running for.
+oq_instancecount // Displays the amount of instances currently running under the engine.
+oq_builddate // Displays the date of when the game was compiled (built).
+oq_releaseflag // Displays whether or not the game is meant for a release.
+oq_fb_device // (FlatBlade) Displays the type of device the game is currently running on.
+oq_buildconfig // Displays the build configuration of the Engine.
+oq_fb_deviceos // (FlatBlade) Displays the OS the device is running on.
+oq_fb_deviceosversion // (FlatBlade) Displays the version of the OS the device is running on.
+oq_launchparams // Displays the active launch parameters of the Engine.
+oq_checkgameupdate // Runs oqupdater to check if the game has an available update.
+oq_resourceview // Shows Engine Resources.
+
+--- SETTINGS ---
+st_volume_master [amount] // Set the volume, at which all sounds should play.
+st_volume_music [amount] // Set the volume, at which the music should play.
+st_volume_sfx [amount] // Set the volume, at which sound effects should play.
+muteall // Immidiately mute all sounds.
+binds // Displays current binds.
+resetbinds // Resets all binds to their default configuration.
+reloadbinds // Reloads all saved binds.
+bind [key] [action] // Binds a key to an action.
+unbind [key] // Unbinds a key.
+force_resolution [width] [height] // Forces a given game resolution.
+lang // Displays the current language the game is running at.
+gamepads // Displays the amount of gamepads connected to the device.
+
+--- DEMOS ---
+demo_shakescreen
+demo_shakewindow
+demo_throwerror
+demo_controllervibration
+demo_message
+
+--- DRIVERS ---
+driv_audio_reset // Resets the internal audio driver.
+driv_gamepad_reset // Resets the internal gamepad driver.
