@@ -1,2 +1,2 @@
-room_goto(enginetestroom);
+room_goto(room_intro);
 global.lockedGameInput = false;

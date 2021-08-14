@@ -20,7 +20,7 @@ function LanguageDictionary(lang) {
 		case "ES": return "Espanol"; break;
 		case "RU": return "Ruski"; break;
 		case "PL": return "Polski"; break;
-		case "HU": return "Magyar"; break;
+		//case "HU": return "Magyar"; break; No magyaros
 		default: return ""; break;
 	}
 	

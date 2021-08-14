@@ -30,4 +30,5 @@ Settings
 	Graphical Settings
 		Fullscreen
 		Window Size
+		Brightness
 	Language
