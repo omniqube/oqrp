@@ -5,7 +5,7 @@ currenttext = obj_introControl.panelText[current];
 if(timer = obj_introControl.paneltextSpeed[current] || fadeout = 1){
 if(charat = string_length(currenttext)){
 if(current = obj_introControl.maxPanels - 1){
-room_goto(enginetestroom)	
+room_fade(enginetestroom, 30, c_black)	
 }else{
 show_debug_message("switching message")
 if(obj_introPanelSprite.image_alpha > 0){
