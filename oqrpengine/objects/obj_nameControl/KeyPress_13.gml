@@ -25,8 +25,7 @@ if choice = 1{
 	instance_create_depth(128,210,-1,obj_nameChoice)	
 	instance_create_depth(224,210,-1,obj_nameChoice)	
 	}else{
-	//Maek rampa script
-	room_fade(enginetestroom,120,c_white)	
+	room_ramp(enginetestroom,120,c_white)
 	}
 	
 }else{
