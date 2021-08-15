@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_nameBack",
+    "path": "sprites/spr_nameBack/spr_nameBack.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_introControl","path":"objects/obj_introControl/obj_introControl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "intro",
-    "path": "folders/Objects/FrontEnd Game/intro.yy",
+    "name": "name",
+    "path": "folders/Objects/FrontEnd Game/name.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_introControl",
+  "name": "obj_nameCover",
   "tags": [],
   "resourceType": "GMObject",
 }

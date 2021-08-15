@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "FrontEnd Game",
-    "path": "folders/Objects/FrontEnd Game.yy",
+    "name": "intro",
+    "path": "folders/Objects/FrontEnd Game/intro.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_introPanel",

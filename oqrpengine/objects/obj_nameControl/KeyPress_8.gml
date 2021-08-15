@@ -1,4 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_set_font(obj_introControl.font)
-draw_text(24,162,text)
+if choice = 1{
+	
+	
+}else{
+text = string_copy(text,0,string_length(text)-1)
+}
