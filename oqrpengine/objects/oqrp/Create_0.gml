@@ -17,7 +17,6 @@
 global.nodebug_dev = true;
 
 #region Load Engine Configuration
-game_set_speed(30, gamespeed_fps);
 oqrp_configmap();
 
 window_set_caption(global.oqrp_game_name);
@@ -101,3 +100,4 @@ global.oqrp_res_timelines = ds_map_create(); map_timelines(global.oqrp_res_timel
 initSave();
 modScan();
 #endregion
+
