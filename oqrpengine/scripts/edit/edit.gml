@@ -17,5 +17,5 @@ function sprite_edit_begin() {
     }
     draw_set_blend_mode(bm_normal);
     draw_set_alpha(a);
-    return (string(surface)+':'+string(sprite));
+    return (string(surface)+":"+string(sprite));
 }

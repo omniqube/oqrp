@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Scripts/oqrp/Graphics/Sprites.yy",
+    "name": "Real",
+    "path": "folders/Scripts/oqrp/Math/Real.yy",
   },
   "resourceVersion": "1.0",
-  "name": "color",
+  "name": "select",
   "tags": [],
   "resourceType": "GMScript",
 }

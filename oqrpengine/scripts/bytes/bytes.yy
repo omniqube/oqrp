@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Geometry",
-    "path": "folders/Scripts/oqrp/Math/Geometry.yy",
+    "name": "Encoding",
+    "path": "folders/Scripts/oqrp/Utilities/Encoding.yy",
   },
   "resourceVersion": "1.0",
-  "name": "polygon",
+  "name": "bytes",
   "tags": [],
   "resourceType": "GMScript",
 }

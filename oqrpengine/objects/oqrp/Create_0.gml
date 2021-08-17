@@ -17,7 +17,7 @@
 global.nodebug_dev = true;
 
 #region Load Engine Configuration
-oqrp_configmap();
+gml_pragma("global", "oqrp_configmap()"); // YYC Compiler @startup
 
 window_set_caption(global.oqrp_game_name);
 
