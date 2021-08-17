@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Graphics",
+    "path": "folders/Scripts/oqrp/Graphics.yy",
   },
   "resourceVersion": "1.0",
   "name": "room_fade",

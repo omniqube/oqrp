@@ -16,3 +16,14 @@ function room_ramp(target, time, fadecolor) {
 		ramp = true
 	}
 }
+
+function room_slide(target, time, fadecolor) {
+	var _inst = instance_create_depth(0, 0, 0, fade)
+	with (_inst) {
+		targetRoom = target
+		duration = time
+		color = fadecolor
+		ramp = true
+		reversed = true
+	}
+}
