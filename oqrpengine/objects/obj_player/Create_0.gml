@@ -13,3 +13,5 @@ gold = 0;
 
 wpn = "weapon";
 arm = "armor";
+
+textbox = 0
