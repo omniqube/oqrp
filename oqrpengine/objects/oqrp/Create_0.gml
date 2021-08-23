@@ -15,6 +15,7 @@
 */
 
 global.nodebug_dev = true;
+global.fullscreen = false;
 
 #region Load Engine Configuration
 gml_pragma("global", "oqrp_configmap()"); // YYC Compiler @startup
@@ -67,7 +68,7 @@ for (i = 0; i < array_length(p_string); i++) {
 		case "-devmode": global.developerMode = true;
 		case "-console": global.consoleEnabled = true;
 		case "-novideo": global.introEnabled = false;
-		case "-forcefs": window_set_fullscreen(true);
+		case "-forcefs": global.fullscreen = true; window_set_fullscreen(global.fullscreen);
 		case "-experimental": global.enableExperimentalFeatures = true;
 		case "-resetbinds": resetbinds();
 		default: break;

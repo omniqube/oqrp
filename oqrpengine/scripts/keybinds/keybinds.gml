@@ -21,7 +21,7 @@ function defaultbinds() {
 		
 		b_ui_confirm = ds_list_create(); ds_list_add(b_ui_confirm, vk_enter, gp_face1); ds_map_add_list(global.binds, "ui_confirm", b_ui_confirm);
 		b_ui_cancel = ds_list_create(); ds_list_add(b_ui_cancel, ord("X"), gp_face2); ds_map_add_list(global.binds, "ui_cancel", b_ui_cancel);
-		b_ui_menu = ds_list_create(); ds_list_add(b_ui_menu, ord("C"), gp_face3); ds_map_add_list(global.binds, "ui_menu", b_ui_menu);
+		b_ui_menu = ds_list_create(); ds_list_add(b_ui_menu, ord("C"), gp_select); ds_map_add_list(global.binds, "ui_menu", b_ui_menu);
 		
 		b_fullscreen = ds_list_create(); ds_list_add(b_fullscreen, vk_f4); ds_map_add_list(global.binds, "fullscreen", b_fullscreen);
 		b_console = ds_list_create(); ds_list_add(b_console, vk_pause); ds_map_add_list(global.binds, "console", b_console);

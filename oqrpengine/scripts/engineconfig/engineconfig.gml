@@ -22,5 +22,6 @@ function oqrp_configmap() {
 	global.oqrp_errorlog_directory = working_directory + "\error-logs\\"
 	global.oqrp_save_directory = working_directory + "\saves\\"
 	global.oqrp_mods_directory = working_directory + "\oqrp\mods\\"
+	global.oqrp_screenshot_directory = working_directory + "\screenshots\\"
 	
 }
