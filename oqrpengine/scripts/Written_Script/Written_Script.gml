@@ -20,14 +20,12 @@ function LanguageDictionary(lang) {
 		case "ES": return "Espanol"; break;
 		case "RU": return "Ruski"; break;
 		case "PL": return "Polski"; break;
-		//case "HU": return "Magyar"; break; No magyaros
 		default: return ""; break;
 	}
 	
 }
 
 function scr_seek(key) {return ds_map_find_value(global.gametext, key)}
-
 function scr(key, val) {ds_map_add(global.gametext, key, val)}
 
 function DATA_EN() {

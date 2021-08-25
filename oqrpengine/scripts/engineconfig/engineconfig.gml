@@ -7,7 +7,7 @@ function oqrp_configmap() {
 	global.oqrp_game_author = "OmniQube"
 	
 	// Versioning Settings
-	global.oqrp_game_version = 0
+	global.oqrp_game_version = "0"
 	global.oqrp_game_build = 0
 	global.oqrp_engine_oqupdater_url = ""
 	global.oqrp_engine_oqupdater_downloadurl = ""
@@ -15,7 +15,7 @@ function oqrp_configmap() {
 	// Engine (DO NOT CHANGE)
 	global.oqrp_engine_id = "OQRP Engine"
 	global.oqrp_engine_dev = "OmniQube"
-	global.oqrp_engine_version = 210822
+	global.oqrp_engine_version = 210825
 	
 	// Directories
 	global.oqrp_directory = working_directory + "\oqrp\\"
