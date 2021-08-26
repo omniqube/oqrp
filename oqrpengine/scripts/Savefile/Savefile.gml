@@ -32,7 +32,7 @@ function Savegame() {
 function Loadinfo() {
 	global.save_existingslots = ds_list_create();
 	ds_list_add(global.save_existingslots, real(string_replace(file_find_first(global.oqrp_save_directory + "*.oqrpsav", 0), "slot", "")));
-	while (file_find_next(global.oqrp_save_directory + "*.oqrpsav", 0) != "") {
+	while (file_find_next() != "") {
 	ds_list_add(global.save_existingslots, real(string_replace(file_find_next(), "slot", "")));
 	}
 }
@@ -53,8 +53,8 @@ function verifySave() {
 function varSave(name, value) {ds_map_replace(global.save, string(name), value);}
 function varLoad(name) {return ds_map_find_value(global.save, string(name));}
 
-// Variable Cache functionality
-
+#region Cache // Variable Cache functionality
 function initCache() {global.cache = ds_map_create();}
 function cacheSave(name, value) {ds_map_replace(global.cache, string(name), value);}
 function cacheLoad(name) {return ds_map_find_value(global.cache, string(name));}
+#endregion
