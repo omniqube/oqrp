@@ -79,6 +79,7 @@ if (loadbinds()) {
 #region Start Engine Drivers
 instance_create_depth(0, 0, 0, d_gamepad_api); 
 instance_create_depth(0, 0, 0, d_sound_api); 
+instance_create_depth(0, 0, 0, d_display_api); 
 #endregion
 
 alarm[0] = room_speed

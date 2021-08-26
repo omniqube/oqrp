@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Demos",
-    "path": "folders/Scripts/oqrp/Console/Commands/Demos.yy",
+    "name": "oqrp",
+    "path": "folders/Scripts/oqrp.yy",
   },
   "resourceVersion": "1.0",
-  "name": "_demo_throwerror",
+  "name": "to_bool",
   "tags": [],
   "resourceType": "GMScript",
 }

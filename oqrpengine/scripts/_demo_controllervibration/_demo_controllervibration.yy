@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Commands",
-    "path": "folders/Scripts/oqrp/Console/Commands.yy",
+    "name": "Demos",
+    "path": "folders/Scripts/oqrp/Console/Commands/Demos.yy",
   },
   "resourceVersion": "1.0",
   "name": "_demo_controllervibration",

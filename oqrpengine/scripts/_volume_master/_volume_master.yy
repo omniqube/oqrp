@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Demos",
-    "path": "folders/Scripts/oqrp/Console/Commands/Demos.yy",
+    "name": "Audio",
+    "path": "folders/Scripts/oqrp/Console/Commands/Audio.yy",
   },
   "resourceVersion": "1.0",
-  "name": "_demo_throwerror",
+  "name": "_volume_master",
   "tags": [],
   "resourceType": "GMScript",
 }

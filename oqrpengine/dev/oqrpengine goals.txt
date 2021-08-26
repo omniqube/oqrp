@@ -20,3 +20,5 @@ Goals for the OQRP Engine
 NEW BUILD: ----
 - automatic save corruption checking
 - mod and script support
+- Achievement and quest system
+- Developer Commentary

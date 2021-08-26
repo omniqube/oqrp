@@ -18,7 +18,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"d_sound_api","path":"objects/d_sound_api/d_sound_api.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"d_display_api","path":"objects/d_display_api/d_display_api.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -27,7 +27,7 @@
     "path": "folders/Objects/oqrp/driver.yy",
   },
   "resourceVersion": "1.0",
-  "name": "d_sound_api",
+  "name": "d_display_api",
   "tags": [],
   "resourceType": "GMObject",
 }

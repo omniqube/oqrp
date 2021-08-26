@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Commands",
-    "path": "folders/Scripts/oqrp/Console/Commands.yy",
+    "name": "Audio",
+    "path": "folders/Scripts/oqrp/Console/Commands/Audio.yy",
   },
   "resourceVersion": "1.0",
-  "name": "_force_resolution",
+  "name": "_ad_debug",
   "tags": [],
   "resourceType": "GMScript",
 }

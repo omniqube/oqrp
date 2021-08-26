@@ -1,0 +1,12 @@
+OQRP Engine Console Commands --------------------------------------
+
+--- MAIN ---
+help // Displays a list of available commands.
+echo [args] // Displays the command argument.
+cls // Clears the screen.
+exit // Exits the game.
+restart // Restarts the game
+
+--- AUDIO ---
+ad_debug 0|1 // Displays audio debug information.
+

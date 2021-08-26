@@ -13,7 +13,6 @@ stat_set [stat] [value] // Sets a player stat to a given value.
 --- GAME ---
 exit // Exits the game.
 restart // Restarts the game
-force_speed [fps] // Forces the game to run at a given FPS value.
 
 --- RENDER ---
 rd_hitbox [0|1] // Enables or disables hitbox visibility.
@@ -55,22 +54,17 @@ oq_resourceview // Shows Engine Resources.
 st_volume_master [amount] // Set the volume, at which all sounds should play.
 st_volume_music [amount] // Set the volume, at which the music should play.
 st_volume_sfx [amount] // Set the volume, at which sound effects should play.
-muteall // Immidiately mute all sounds.
 binds // Displays current binds.
 resetbinds // Resets all binds to their default configuration.
 reloadbinds // Reloads all saved binds.
 bind [key] [action] // Binds a key to an action.
 unbind [key] // Unbinds a key.
-force_resolution [width] [height] // Forces a given game resolution.
 lang // Displays the current language the game is running at.
 gamepads // Displays the amount of gamepads connected to the device.
 
 --- DEMOS ---
-demo_shakescreen
-demo_shakewindow
 demo_throwerror
 demo_controllervibration
-demo_message
 
 --- DRIVERS ---
 driv_audio_reset // Resets the internal audio driver.
