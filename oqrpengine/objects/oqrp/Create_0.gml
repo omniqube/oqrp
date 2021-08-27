@@ -75,7 +75,9 @@ for (i = 0; i < array_length(p_string); i++) {
 	}
 }
 #endregion
-if (loadbinds()) { 
+
+initbinds();
+
 #region Start Engine Drivers
 instance_create_depth(0, 0, 0, d_gamepad_api); 
 instance_create_depth(0, 0, 0, d_sound_api); 
@@ -84,7 +86,6 @@ instance_create_depth(0, 0, 0, d_display_api);
 
 alarm[0] = room_speed
 alarm[1] = 2
-}
 
 if (global.introEnabled) {room_goto(introroom); alarm[2] = room_speed*17} else {alarm[2] = 3}
 

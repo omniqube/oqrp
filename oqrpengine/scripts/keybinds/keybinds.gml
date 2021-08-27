@@ -1,18 +1,37 @@
 // Keyboard and Controller Binding
 
-function loadbinds() {
+function initbinds() {
 	
-	defaultbinds()
+	
+	if (file_exists("keybinds.json")) {file_delete("keybinds.json")}
+	show_debug_message("FILE EXISTS: " + string(file_exists("keybinds.json")))
+	show_debug_message("DS EXISTS: " + string(ds_exists(ds_map_find_value(ds_map_secure_load("keybinds.json"), "move_up"), ds_type_list)))
+	
+	if (file_exists("keybinds.json")) {loadbinds();}
+	else {defaultbinds();}
 	
 	global.lockedGameInput = false;
+
+}
+
+function loadbinds() {
 	
-	return true;
+	global.binds = ds_map_secure_load("keybinds.json");
+	
+	/* UNUSED INI CODE - GAMEMAKER FILESYSTEM ISSUE
+	global.binds = ds_map_create();
+	ini_open(global.oqrp_save_directory + "keybinds.ini");
+	_binds_check = ini_read_string("OQRP_Keybinds", "data", "N/A");
+	ini_close();
+	if (_binds_check != "N/A") {ds_map_read(global.binds, _binds_check);}
+	else {defaultbinds();}
+	*/
 }
 
 function defaultbinds() {
 	// Array position for keyboard = 0; gamepad = 1; single-sesion binds = 2+;
 	
-	global.binds = ds_map_create()
+	global.binds = ds_map_create();
 		
 		b_move_up = ds_list_create(); ds_list_add(b_move_up, vk_up, gp_padu); ds_map_add_list(global.binds, "move_up", b_move_up);
 		b_move_down = ds_list_create(); ds_list_add(b_move_down, vk_down, gp_padd); ds_map_add_list(global.binds, "move_down", b_move_down);
@@ -28,7 +47,15 @@ function defaultbinds() {
 		b_pause = ds_list_create(); ds_list_add(b_pause, vk_escape, gp_start); ds_map_add_list(global.binds, "pause", b_pause);
 		b_screenshot = ds_list_create(); ds_list_add(b_screenshot, vk_f2); ds_map_add_list(global.binds, "screenshot", b_screenshot);
 		
-	ds_map_secure_save(global.binds, "binds")
+		
+	ds_map_secure_save(global.binds, "keybinds.json");
+		
+	/* UNUSED INI CODE - GAMEMAKER FILESYSTEM ISSUE	
+	ini_open(global.oqrp_save_directory + "keybinds.ini");
+	ini_write_string("OQRP_Keybinds", "data", ds_map_write(global.binds));
+	ini_close();
+	*/
+		
 		// show_debug_message(ds_list_find_value(ds_map_find_value(binds, "ui_cancel"), 0));
 		
 }

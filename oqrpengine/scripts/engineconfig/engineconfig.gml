@@ -15,13 +15,15 @@ function oqrp_configmap() {
 	// Engine (DO NOT CHANGE)
 	global.oqrp_engine_id = "OQRP Engine"
 	global.oqrp_engine_dev = "OmniQube"
-	global.oqrp_engine_version = 210826
+	global.oqrp_engine_version = 210827
 	
 	// Directories
-	global.oqrp_directory = working_directory + "\oqrp\\"
-	global.oqrp_errorlog_directory = working_directory + "\error-logs\\"
-	global.oqrp_save_directory = working_directory + "\saves\\"
-	global.oqrp_mods_directory = working_directory + "\oqrp\mods\\"
-	global.oqrp_screenshot_directory = working_directory + "\screenshots\\"
+	global.oqrp_directory = "oqrp\\"
+	global.oqrp_errorlog_directory = "error-logs\\"
+	global.oqrp_save_directory = "saves\\"
+	global.oqrp_mods_directory = "oqrp\\mods\\"
+	global.oqrp_screenshot_directory = "screenshots\\"
 	
 }
+
+function fulldir(dir) {return working_directory + "\\" + dir}
