@@ -1,11 +1,8 @@
 // Keyboard and Controller Binding
 
 function initbinds() {
-	
-	
-	if (file_exists("keybinds.json")) {file_delete("keybinds.json")}
-	show_debug_message("FILE EXISTS: " + string(file_exists("keybinds.json")))
-	show_debug_message("DS EXISTS: " + string(ds_exists(ds_map_find_value(ds_map_secure_load("keybinds.json"), "move_up"), ds_type_list)))
+
+	//if (file_exists("keybinds.json")) {file_delete("keybinds.json")}
 	
 	if (file_exists("keybinds.json")) {loadbinds();}
 	else {defaultbinds();}
@@ -16,7 +13,12 @@ function initbinds() {
 
 function loadbinds() {
 	
-	global.binds = ds_map_secure_load("keybinds.json");
+	bindsfile = file_text_open_read("keybinds.json");
+	bindsave = file_text_read_string(bindsfile);
+	global.binds = json_decode(bindsave);
+	file_text_close(bindsfile);
+	
+	//global.binds = ds_map_secure_load("keybinds.json");
 	
 	/* UNUSED INI CODE - GAMEMAKER FILESYSTEM ISSUE
 	global.binds = ds_map_create();
@@ -47,8 +49,12 @@ function defaultbinds() {
 		b_pause = ds_list_create(); ds_list_add(b_pause, vk_escape, gp_start); ds_map_add_list(global.binds, "pause", b_pause);
 		b_screenshot = ds_list_create(); ds_list_add(b_screenshot, vk_f2); ds_map_add_list(global.binds, "screenshot", b_screenshot);
 		
-		
-	ds_map_secure_save(global.binds, "keybinds.json");
+	bindsave = json_encode(global.binds);
+	bindsfile = file_text_open_write("keybinds.json");
+	file_text_write_string(bindsfile, bindsave);
+	file_text_close(bindsfile);
+	
+	//ds_map_secure_save(global.binds, "keybinds.json");
 		
 	/* UNUSED INI CODE - GAMEMAKER FILESYSTEM ISSUE	
 	ini_open(global.oqrp_save_directory + "keybinds.ini");

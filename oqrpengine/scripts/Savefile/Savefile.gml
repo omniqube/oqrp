@@ -40,14 +40,14 @@ function Loadinfo() {
 function Loadgame(slot) {
 	if (ds_list_find_index(global.save_existingslots, slot) != -1) {
 	global.save_activeslot = slot;
-	if !verifySave() {customerrormessage("OQRP ENGINE EXCEPTION", "Error: Save file corrupted, or has been tampered with.", "EXIT")}
+	if !verifySave() {customerrormessage("OQRP ENGINE EXCEPTION", "Error: Save file corrupted, or has been tampered with.\nPlease delete the save file, and restart the game.", "EXIT")}
 	global.save = ds_map_secure_load(global.oqrp_save_directory + "slot" + string(global.save_activeslot) + ".oqrpsav");
 	} else {customerrormessage("OQRP ENGINE EXCEPTION", "Error: Game attempted to load from an unavailable save slot.", "EXIT")}
 }
 
 function verifySave() {
 	_tempload = ds_map_secure_load(global.oqrp_save_directory + "slot" + string(global.save_activeslot) + ".oqrpsav");
-	if (is_undefined(ds_map_find_value(_svcheck, "VKEY"))) {return false;} else {return true;}
+	if (is_undefined(ds_map_find_value(_svcheck, "VKEY")) || ds_map_find_value(_svcheck, "VKEY") != 15171816) {return false;} else {return true;}
 }
 
 function varSave(name, value) {ds_map_replace(global.save, string(name), value);}
