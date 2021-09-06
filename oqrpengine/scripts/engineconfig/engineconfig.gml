@@ -15,7 +15,7 @@ function oqrp_configmap() {
 	// Engine (DO NOT CHANGE)
 	global.oqrp_engine_id = "OQRP Engine"
 	global.oqrp_engine_dev = "OmniQube"
-	global.oqrp_engine_version = 210827
+	global.oqrp_engine_version = 210906
 	
 	// Directories
 	global.oqrp_directory = "oqrp\\"
