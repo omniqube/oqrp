@@ -1,12 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 timer++;
-if(timer = 2 and finished = 0){
-if(charat-1 = string_length(text[current])){
+if(timer = 2){
+if(charat = string_length(text[current])){
 	finished = 1
 }else{
 //show_debug_message("Adding char "+string(charat)+",max: "+string(string_length(currenttext)))
-if(string_char_at(text[current],charat) = "|"){
+if(string_char_at(currenttext,charat) = "|"){
 	//add switch in future development
 }else{
 currenttext =  currenttext + string_char_at(text[current],charat)
@@ -25,11 +25,12 @@ if(finished = 1){
 	instance_destroy();
 	obj_player.textbox = 0
 	}else{
-	finished = 0
 	current++; 
 	timer = 0;
 	charat = 1; 
-	currenttext = "";
+	text = "";
+	obj_introPanelSprite.image_alpha = 1
+	fadeout = 0;
 	}
 }	
 }
