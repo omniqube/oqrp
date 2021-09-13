@@ -1,0 +1,46 @@
+License file for material used in the OQRP Engine. For a license to the OQRP Engine itself, refer to the main LICENSE file.
+The OQRP Engine uses the GNU General Public License v2.
+
+1. OQRP Engine is a middleware engine. Games and software made using the OQRP Engine are strictly required 
+to follow the OQRP Engine License, as well as the licenses, guidelines and acknowledgements of section 2 
+and above. This also applies to modifications and expansions of said games and software.
+
+2. OQRP Engine is built using GameMaker Studio 2 and uses functions, code and assets provided to it by the IDE.
+The OQRP Engine is therefore subjected to and in accordance with, the YoYo Games legal documentation (https://www.yoyogames.com/en/legal)
+including the End User License Agreement (https://www.yoyogames.com/en/legal/eula), the Third Party Software List
+(https://www.yoyogames.com/en/legal/thirdpartysoftware) and the YoYo Games / GameMaker brand guidelines (https://www.yoyogames.com/en/legal/brand).
+
+3. OQRP Engine may use public code or code snippets (modified or not) in some sections.
+
+4. OQRP Engine may use public assets (modified or not) in some sections. These may be subjected under
+their own licenses under certain conditions.
+
+5. OQRP Engine uses code / assets from other OmniQube projects, which may be subjected to their own licenses.
+Games and software made using the OQRP Engine are cleared of subjection to these licenses, but only when using
+the code / assets provided by the OQRP Engine.
+
+6. OQRP Engine uses a modified version of the GameJolt Achievement API for Game Maker: Studio 
+by Florian van Strien @flori9 (https://gamejolt.com/games/gamejolt-achievement-api-for-gamemaker-studio/11689).
+
+7. OQRP Engine uses code and code snippets (sometimes modified) from GMLScripts (GMLScripts.com)
+This is the GMLScripts license in its full version included as per section one.
+
+			Copyright (c) 2007-2021, GMLscripts.com
+
+	This software is provided 'as-is', without any express or implied
+	warranty. In no event will the authors be held liable for any damages
+	arising from the use of this software.
+
+	Permission is granted to anyone to use this software for any purpose,
+	including commercial applications, and to alter it and redistribute it
+	freely, subject to the following restrictions:
+
+	  1. The origin of this software must not be misrepresented; you must not
+	     claim that you wrote the original software. If you use this software
+	     in a product, an acknowledgment in the product documentation would be
+	     appreciated but is not required.
+
+	  2. Altered source versions must be plainly marked as such, and must not be
+	     misrepresented as being the original software.
+
+	  3. This notice may not be removed or altered from any source distribution.

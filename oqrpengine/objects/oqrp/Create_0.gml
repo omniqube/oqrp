@@ -12,10 +12,16 @@
 			OQRP Engine
 		Developed by OmniQube
 		   ©2021 OmniQube
+		   
 */
 
+// See the licenses note before use.
+
+
+#region preinit
 global.nodebug_dev = true;
 global.fullscreen = false;
+#endregion
 
 #region Load Engine Configuration
 gml_pragma("global", "oqrp_configmap()"); // YYC Compiler @startup
