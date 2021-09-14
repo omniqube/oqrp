@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Utilities",
-    "path": "folders/Scripts/oqrp/Utilities.yy",
+    "name": "Data",
+    "path": "folders/Scripts/oqrp/Data.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Modloader",
+  "name": "Arrays",
   "tags": [],
   "resourceType": "GMScript",
 }
