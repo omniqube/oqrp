@@ -20,10 +20,11 @@ timer = 0;
 }
 }
 if(finished = 1){
-	if(keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("Z"))){
+	if(input("ui_confirm")){
 	if(current = maxboxes - 1){
-	instance_destroy();
+	if (instance_exists(obj_textboxSequence)) {obj_textboxSequence.returnPulse = true;}
 	obj_player.textbox = 0
+	instance_destroy();
 	}else{
 	finished = 0
 	current++; 
