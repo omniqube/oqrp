@@ -21,7 +21,7 @@ if input("screenshot") {
     var i,fname;
     i = 0;
     do {
-        fname = global.oqrp_screenshot_directory+"\\"+"screenshot"+"_"+string(i)+".png";
+        fname = global.oqrp.dir.screenshot+"\\"+"screenshot"+"_"+string(i)+".png";
         i += 1;
     } until (!file_exists(fname))
     screen_save(fname);

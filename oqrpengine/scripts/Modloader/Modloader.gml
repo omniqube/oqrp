@@ -2,7 +2,7 @@
 
 function modScan() {
 	modmap = ds_list_create();
-	file = file_find_first(global.oqrp_mods_directory + "*", fa_directory);
+	file = file_find_first(global.oqrp.dir.mods + "*", fa_directory);
 	while (file != "") {
     ds_list_add(modmap, file);
     file = file_find_next();
@@ -26,7 +26,7 @@ function modLoad(modinimap) {
 		ds_map_add(_tempmodmap, "ModVersion", ini_read_real("ModID", "ModVersion", 0));
 		ds_map_add(_tempmodmap, "ModDesc", ini_read_string("ModID", "ModDesc", "N/A"));
 		// OQRP
-		ds_map_add(_tempmodmap, "TargetBuild", ini_read_real("OQRP", "TargetBuild", global.oqrp_engine_version));
+		ds_map_add(_tempmodmap, "TargetBuild", ini_read_real("OQRP", "TargetBuild", global.oqrp.engine.version));
 		ds_map_add(_tempmodmap, "CheckForUpdates", string_to_bool(ini_read_string("OQRP", "CheckForUpdates", false)));
 		ds_map_add(_tempmodmap, "UpdateURL", ini_read_string("OQRP", "UpdateURL", ""));
 		// Data

@@ -19,7 +19,7 @@ ini_open("oqau_verdwn.ini")
 str = ini_read_string("Version", "Build", "")
 ini_close()
 
-if (str >= global.oqrp_game_build) {
+if (str >= global.oqrp.game.build) {
 	if show_question_async("An Update is available! Do you want to go to the download page?") {
 		url_open(global.oqrp_engine_oqupdater_downloadurl)
 		instance_destroy()

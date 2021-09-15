@@ -25,8 +25,9 @@ global.fullscreen = false;
 
 #region Load Engine Configuration
 gml_pragma("global", "oqrp_configmap()"); // YYC Compiler @startup
+//oqrp_configmap();
 
-window_set_caption(global.oqrp_game_name);
+window_set_caption(global.oqrp.game.name);
 
 if (debug_mode || global.nodebug_dev) {
 global.consoleEnabled = true;

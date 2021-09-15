@@ -22,7 +22,7 @@ function loadbinds() {
 	
 	/* UNUSED INI CODE - GAMEMAKER FILESYSTEM ISSUE
 	global.binds = ds_map_create();
-	ini_open(global.oqrp_save_directory + "keybinds.ini");
+	ini_open(global.oqrp.dir.save + "keybinds.ini");
 	_binds_check = ini_read_string("OQRP_Keybinds", "data", "N/A");
 	ini_close();
 	if (_binds_check != "N/A") {ds_map_read(global.binds, _binds_check);}
@@ -57,7 +57,7 @@ function defaultbinds() {
 	//ds_map_secure_save(global.binds, "keybinds.json");
 		
 	/* UNUSED INI CODE - GAMEMAKER FILESYSTEM ISSUE	
-	ini_open(global.oqrp_save_directory + "keybinds.ini");
+	ini_open(global.oqrp.dir.save + "keybinds.ini");
 	ini_write_string("OQRP_Keybinds", "data", ds_map_write(global.binds));
 	ini_close();
 	*/
