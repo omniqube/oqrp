@@ -1,19 +1,4 @@
-/*
-textbox_make {
-	layout = "Classic"
-	font = UTfont
-	snd = snd_introtext
-	text[0] = "Testing testing T E S T I N G"
-	text[1] = "Testing 2 \nTesting 2"
-	text[2] = "Testing 3 |||||.|||||.|||||."
-} textbox_show
-*/
-
-
-tb_create_event();
-
-/*
-textbox_sequence_make {
+textbox_sequence_init { textbox_sequence_make {
 	
 	box[0] = {
 		layout : "Classic",
@@ -37,4 +22,4 @@ textbox_sequence_make {
 		]
 	}
 	
-} textbox_sequence_show
+} textbox_sequence_show }

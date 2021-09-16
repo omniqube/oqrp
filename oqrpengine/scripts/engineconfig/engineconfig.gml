@@ -18,15 +18,15 @@ function oqrp_configmap() {
 			
 			name: "OQRP Engine",
 			dev: "OmniQube",
-			version: 210915
+			version: 210916
 			
 		},
 		
 		gj : { // GameJolt API Settings
 		
-			active: true,
-			gameid: "647955",
-			key: "bda243824af22578e13f3338c61f7b21"
+			active: false,
+			gameid: "",
+			key: ""
 			
 		},
 		

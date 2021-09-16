@@ -89,6 +89,7 @@ initbinds();
 instance_create_depth(0, 0, 0, d_gamepad_api); 
 instance_create_depth(0, 0, 0, d_sound_api); 
 instance_create_depth(0, 0, 0, d_display_api); 
+instance_create_depth(0, 0, 0, d_gj_api);
 #endregion
 
 alarm[0] = room_speed
