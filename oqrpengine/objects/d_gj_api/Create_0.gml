@@ -2,7 +2,7 @@
 // Scripts/oqrp/GameJoltAPI
 
 if (!global.oqrp.gj.active) {instance_destroy();}
-GJInit(global.oqrp.gameid, global.oqrp.key, bool_to_bin(global.developerMode));
+//GJInit(global.oqrp.gameid, global.oqrp.key, bool_to_bin(global.developerMode));
 
 if (file_exists(working_directory + ".gj_credentials")) {}
 
