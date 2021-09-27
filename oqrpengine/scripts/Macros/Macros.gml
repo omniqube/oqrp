@@ -2,6 +2,8 @@
 
 #macro textbox_show with(obj_textbox){event_user(0);};
 #macro textbox_make instance_create_depth(0,0,0,obj_textbox); with(obj_textbox)
+#macro textbox_show_choice with(obj_textboxChoice){event_user(0);};
+#macro textbox_make_choice instance_create_depth(0,0,0,obj_textboxChoice); with(obj_textbox)
 
 #macro textbox_sequence_init function tb_create_event()
 #macro textbox_sequence_make instance_create_depth(0,0,0,obj_textboxSequence); with(obj_textboxSequence)
