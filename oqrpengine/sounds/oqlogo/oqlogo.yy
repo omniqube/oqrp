@@ -2,7 +2,7 @@
   "compression": 0,
   "volume": 0.5,
   "preload": false,
-  "bitRate": 128,
+  "bitRate": 512,
   "sampleRate": 48000,
   "type": 1,
   "bitDepth": 1,

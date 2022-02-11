@@ -2,6 +2,7 @@
 
 audio_group_load(SFX)
 audio_group_load(Music)
+audio_group_load(audiogroup_default)
 
 
 // LOAD GAIN INFO FROM SAVE FILE

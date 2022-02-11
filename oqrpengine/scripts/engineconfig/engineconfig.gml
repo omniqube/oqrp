@@ -18,7 +18,7 @@ function oqrp_configmap() {
 			
 			name: "OQRP Engine",
 			dev: "OmniQube",
-			version: 210916
+			version: 220119
 			
 		},
 		

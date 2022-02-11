@@ -11,15 +11,15 @@
                                                                                                                                                                                                                                  
 			OQRP Engine
 		Developed by OmniQube
-		   ©2021 OmniQube
+		©2021-2022 OmniQube
 		   
 */
 
 // See the licenses note before use.
-
+// https://omniqube.github.io/
 
 #region preinit
-global.nodebug_dev = true;
+global.nodebug_dev = false;
 global.fullscreen = false;
 #endregion
 
@@ -86,10 +86,10 @@ for (i = 0; i < array_length(p_string); i++) {
 initbinds();
 
 #region Start Engine Drivers
-instance_create_depth(0, 0, 0, d_gamepad_api); 
 instance_create_depth(0, 0, 0, d_sound_api); 
+instance_create_depth(0, 0, 0, d_gamepad_api); 
 instance_create_depth(0, 0, 0, d_display_api); 
-instance_create_depth(0, 0, 0, d_gj_api);
+//instance_create_depth(0, 0, 0, d_gj_api);
 #endregion
 
 alarm[0] = room_speed

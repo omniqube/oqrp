@@ -4,7 +4,7 @@
 draw_self();
 draw_set_font(font)
 if (face = 1){
-	draw_sprite(x+10,y+20, facesprite[current])
+	draw_sprite(facesprite[current], 0, x+10,y+20)
 	draw_text(x+10,y+10,currenttext)
 	
 }else{

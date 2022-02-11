@@ -3,7 +3,7 @@ The OQRP Engine uses the GNU General Public License v2.
 
 1. OQRP Engine is a middleware engine. Games and software made using the OQRP Engine are strictly required 
 to follow the OQRP Engine License, as well as the licenses, guidelines and acknowledgements of section 2 
-and above. This also applies to modifications and expansions of said games and software.
+and below. This also applies to modifications and expansions of said games and software.
 
 2. OQRP Engine is built using GameMaker Studio 2 and uses functions, code and assets provided to it by the IDE.
 The OQRP Engine is therefore subjected to and in accordance with, the YoYo Games legal documentation (https://www.yoyogames.com/en/legal)
@@ -22,7 +22,7 @@ the code / assets provided by the OQRP Engine.
 6. OQRP Engine uses a modified version of the GameJolt Custom GMS2 API by DustBunneGames (https://gamejolt.com/games/GMS2GameJolt/528282)
 
 7. OQRP Engine uses code and code snippets (sometimes modified) from GMLScripts (GMLScripts.com)
-This is the GMLScripts license in its full version included as per section one.
+This is the GMLScripts license in its full version included as per its section one.
 
 			Copyright (c) 2007-2021, GMLscripts.com
 
