@@ -89,13 +89,12 @@ initbinds();
 instance_create_depth(0, 0, 0, d_sound_api); 
 instance_create_depth(0, 0, 0, d_gamepad_api); 
 instance_create_depth(0, 0, 0, d_display_api); 
-//instance_create_depth(0, 0, 0, d_gj_api);
+if global.oqrp.gj.active instance_create_depth(0, 0, 0, d_gj_api);
 #endregion
 
-alarm[0] = room_speed
+alarm[0] = 1
 alarm[1] = 2
-
-if (global.introEnabled) {room_goto(introroom); alarm[2] = room_speed*17} else {alarm[2] = 3}
+alarm[3] = 1
 
 #region Map Game and Engine Resources
 global.oqrp_res_fonts = ds_map_create(); map_fonts(global.oqrp_res_fonts);
@@ -109,6 +108,7 @@ global.oqrp_res_timelines = ds_map_create(); map_timelines(global.oqrp_res_timel
 
 #region Auxilliary Functions (Filesystem)
 initSave();
-//modScan();
+if global.oqrp.engine.allow_mods modScan();
 #endregion
 
+LoadScript("EN");

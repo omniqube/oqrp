@@ -18,6 +18,10 @@ function createSave(slot) {
 
 #endregion
 
+function switchSlot(slot) { // Warning: Doesn't check if slot is available/initialized! This will cause a corrupted savefile!
+	global.save_activeslot = slot;
+}
+
 function signSave() {
 	ds_map_add(global.save, "VKEY", 15171816);
 	ds_map_add(global.save, "NGVER", global.oqrp.engine.version);

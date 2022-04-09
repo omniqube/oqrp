@@ -1,0 +1,1 @@
+if (input("ui_confirm")) {event_user(0)}

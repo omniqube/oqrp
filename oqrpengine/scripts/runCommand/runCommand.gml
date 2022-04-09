@@ -14,6 +14,7 @@ function runCommand(cmd) {
 		  compiledarray = array_create();
 		  for (i = 1; i < array_length(array); i++) {compiledarray[i-1] = array[i]}
         commandResult = string(script_execute(scriptAsset, compiledarray));
+		if (commandResult == 0) {commandResult = ""}
 		
 		}
       else {

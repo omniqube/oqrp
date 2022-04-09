@@ -1,10 +1,9 @@
-function throwerror() {undefined();}
 exception_unhandled_handler( function (exception) {
 	window_set_caption("OQRP ENGINE EXCEPTION");
 		
 		if (!global.developerMode) {
 		_filename = memlog(exception); // Dump memory into error log file
-		show_message("████████████████OQRP████████████████\n\nThe Game has Crashed!\nError Number: " + generateerrorid(exception) +"\n\nSee the Error Log for more details.\n(" + global.oqrp.dir.errorlog + _filename + ")\n\n███████████████████████████████████");
+		show_message("████████████████OQRP████████████████\n\nThe Game has Crashed!\nError ID: " + generateerrorid(exception) +"\n\nSee the Error Log for more details.\n(" + global.oqrp.dir.errorlog + _filename + ")\n\n███████████████████████████████████");
 		} else {
 			show_debug_message(string(exception));
 		show_message(
@@ -41,7 +40,7 @@ errorid = string(asset_get_index(exception.script)) + "L" + string(exception.lin
 
 // Known Error Dictionary
 switch (errorid) {
-	case "100037L1": errorid = "0 (Simulated Error)"; break;
+	case "-1L1": errorid = "0 (Simulated Error)"; break;
 	default: break;
 }
 return errorid;

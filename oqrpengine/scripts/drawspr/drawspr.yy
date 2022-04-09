@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Encryption",
-    "path": "folders/Scripts/oqrp/Utilities/Encryption.yy",
+    "name": "Sprites",
+    "path": "folders/Scripts/oqrp/Graphics/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "encodepack",
+  "name": "drawspr",
   "tags": [],
   "resourceType": "GMScript",
 }

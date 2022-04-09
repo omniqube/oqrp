@@ -14,11 +14,13 @@ function oqrp_configmap() {
 			
 		},
 		
+		// Engine Settings - Do not change
 		engine : {
 			
 			name: "OQRP Engine",
 			dev: "OmniQube",
-			version: 220119
+			version: 220403,
+			allow_mods: false
 			
 		},
 		
@@ -30,13 +32,15 @@ function oqrp_configmap() {
 			
 		},
 		
+		// Directory Settings - Do not change
 		dir : {
 			
 			engine: "oqrp\\",
 			errorlog: "error-logs\\",
 			save: "saves\\",
 			mods: "mods\\",
-			screenshot: "screenshots\\"
+			screenshot: "screenshots\\",
+			lang: "lang\\"
 			
 		}
 		
