@@ -19,7 +19,7 @@
 // https://omniqube.github.io/
 
 #region preinit
-global.nodebug_dev = false;
+global.nodebug_dev = true;
 global.fullscreen = false;
 #endregion
 

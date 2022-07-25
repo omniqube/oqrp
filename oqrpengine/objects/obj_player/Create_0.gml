@@ -15,3 +15,4 @@ wpn = "weapon";
 arm = "armor";
 
 textbox = 0
+

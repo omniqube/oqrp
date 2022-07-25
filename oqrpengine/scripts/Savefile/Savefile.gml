@@ -13,7 +13,7 @@ function createSave(slot) {
 	global.save_activeslot = slot;
 	global.save = ds_map_create();
 	signSave();
-	Savegame();
+	ds_map_secure_save(global.save, global.oqrp.dir.save + "slot" + string(global.save_activeslot) + ".oqrpsav");
 }
 
 #endregion
