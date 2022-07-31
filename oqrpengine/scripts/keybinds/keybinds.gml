@@ -130,8 +130,8 @@ function input_forcepressed(action_id) {
 
 
 function getbind(action, iscontroller) {
-	if (!iscontroller) {return ds_list_find_value(ds_map_find_value(binds, "ui_cancel"), 0)}
-	else {return ds_list_find_value(ds_map_find_value(binds, "ui_cancel"), 1)}
+	if (!iscontroller) {return ds_list_find_value(ds_map_find_value(binds, action), 0)}
+	else {return ds_list_find_value(ds_map_find_value(binds, action), 1)}
 }
 
 function keydictionary(key) {

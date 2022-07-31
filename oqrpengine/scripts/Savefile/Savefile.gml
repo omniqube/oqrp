@@ -62,3 +62,4 @@ function initCache() {global.cache = ds_map_create();}
 function cacheSave(name, value) {ds_map_replace(global.cache, string(name), value);}
 function cacheLoad(name) {return ds_map_find_value(global.cache, string(name));}
 #endregion
+

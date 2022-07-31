@@ -2,9 +2,9 @@ function argCheck(arguments, minArgs, maxArgs) {
 	if (array_length(arguments) >= maxArgs || array_length(arguments) <= minArgs) {return false;} else {return true;}
 }
 
-function implodeArgs(delimeter, array) {
+function implodeArgs(delimiter, array) {
 	{
-    var del = delimeter;
+    var del = delimiter;
     var arr = array;
     var out = "";
     var ind = 0;
