@@ -19,8 +19,9 @@ function oqrp_configmap() {
 			
 			name: "OQRP Engine",
 			dev: "OmniQube",
-			version: 220724,
-			allow_mods: false
+			version: 220801,
+			allow_mods: false,
+			fbsc: os_get_info()
 			
 		},
 		
@@ -43,7 +44,6 @@ function oqrp_configmap() {
 			lang: "lang\\"
 			
 		}
-		
 		
 	}
 }

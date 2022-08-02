@@ -11,7 +11,7 @@
                                                                                                                                                                                                                                  
 			OQRP Engine
 		Developed by OmniQube
-		©2021-2022 OmniQube
+		©2021-2023 OmniQube
 		   
 */
 

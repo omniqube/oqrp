@@ -3,7 +3,6 @@
 //  Returns the Soundex value of the given string.
 //  Soundex values are short strings of similar values
 //  for words which sound similar in spoken English.
-//  It was developed to help index related family names.
 
 function soundex() {
     var str = string_upper(string_letters(argument0));

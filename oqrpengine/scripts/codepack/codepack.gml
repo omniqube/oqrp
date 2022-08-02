@@ -46,31 +46,44 @@ function cambridge_encode() {
 }
 
 function rc4() {
-    var str, key, out, len, i, S, j, temp, pos, t;
-    str = argument0;
-    key = argument1;
-    out = "";
-    len = string_length(key);
-    for (i=0; i<256; i+=1) S[i] = i;
-    j = 0;
-    for (i=0; i<256; i+=1) {
-        j = (j + S[i] + ord(string_char_at(key,(i mod len)+1))) mod 256;
-        temp = S[i];
-        S[i] = S[j];
-        S[j] = temp;
-    }
-    i = 0;
-    j = 0;
-    for (pos=0; pos<string_length(str); pos+=1) {
-        i = (i + 1) mod 256;
-        j = (j + S[i]) mod 256;
-        temp = S[i];
-        S[i] = S[j];
-        S[j] = temp;
-        t = (S[i] + S[j]) mod 256;
-        out += chr(ord(string_char_at(str,pos+1)) ^ S[t]);
-    }
-    return out;
+var str,key,str_len,key_len,out,s,k,i,j,pos,temp;
+
+str = argument0;
+key = argument1;
+out = "";
+
+str_len = string_byte_length(str);
+key_len = string_byte_length(key);
+
+for (i = 0; i < 256; i++)
+{
+s[i] = i;
+k[i] = string_byte_at(key,i mod key_len);
+}
+
+j = 0;
+for (i = 0; i < 256; i++)
+{
+j = (j + s[i] + k[i]) % 256;
+temp = s[i];
+s[i] = s[j];
+s[j] = temp;
+}
+
+i = 0;
+j = 0;
+
+for (pos = 0; pos < str_len; pos++)
+{
+i = (i + 1) mod 256;
+j = (j + s[i]) mod 256;
+temp = s[i];
+s[i] = s[j];
+s[j] = temp;
+t = (s[i] + s[j]) mod 256;
+out += ansi_char(string_byte_at(str,pos+1) ^ s[t]);
+}
+return out;
 }
 
 function rot13() {
