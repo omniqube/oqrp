@@ -2,7 +2,7 @@
 
 #region Extended GML Syntax and Operators
 #macro elif else if
-#macro ignore if (true) {} else
+#macro norun if (true) {} else
 #macro defer for (;; { 
 #macro after ; break; })
 

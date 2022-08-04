@@ -97,17 +97,18 @@ alarm[1] = 2
 alarm[3] = 1
 
 #region Map Game and Engine Resources
-global.oqrp_res_fonts = ds_map_create(); map_fonts(global.oqrp_res_fonts);
-global.oqrp_res_objects = ds_map_create(); map_objects(global.oqrp_res_objects);
-global.oqrp_res_paths = ds_map_create(); map_paths(global.oqrp_res_paths);
-global.oqrp_res_sounds = ds_map_create(); map_sounds(global.oqrp_res_sounds);
-global.oqrp_res_rooms = ds_map_create(); map_rooms(global.oqrp_res_rooms);
-global.oqrp_res_sprites = ds_map_create(); map_sprites(global.oqrp_res_sprites);
-global.oqrp_res_timelines = ds_map_create(); map_timelines(global.oqrp_res_timelines);
+global.oqrp_res = {fonts: ds_map_create(), objects: ds_map_create(), paths: ds_map_create(), 
+sounds: ds_map_create(), rooms: ds_map_create(), sprites: ds_map_create(),
+timelines: ds_map_create()} 
+
+map_fonts(global.oqrp_res.fonts); map_objects(global.oqrp_res.objects);
+map_paths(global.oqrp_res.paths); map_sounds(global.oqrp_res.sounds);
+map_rooms(global.oqrp_res.rooms); map_sprites(global.oqrp_res.sprites);
+map_timelines(global.oqrp_res.timelines);
 #endregion
 
 #region Auxilliary Functions (Filesystem)
-initSave();
+sv_init();
 if global.oqrp.engine.allow_mods modScan();
 #endregion
 

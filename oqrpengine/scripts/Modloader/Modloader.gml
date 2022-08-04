@@ -1,6 +1,6 @@
 // OQRP Engine Modloader
 
-function modScan() {
+function modScan() {/*   BLOCK DISABLED FOR NOW
 	modmap = ds_list_create();
 	file = file_find_first(global.oqrp.dir.mods + "*", fa_directory);
 	while (file != "") {
@@ -14,7 +14,7 @@ show_debug_message("MODMAP " + string(modmap))
 		ds_list_add(modinimap, tempini);
 	}
 	modLoad(modinimap);
-}
+*/}
 
 function modLoad(modinimap) {
 	global.mods = ds_map_create();
@@ -50,3 +50,5 @@ function modLoad(modinimap) {
 }
 
 // Still unfinished after 4 months :(
+
+// Update: it's been 16 months :(((

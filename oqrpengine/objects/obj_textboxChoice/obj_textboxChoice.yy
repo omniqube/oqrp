@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "choice textbox",
-    "path": "folders/Objects/FrontEnd Game/choice textbox.yy",
+    "path": "folders/Objects/Game/choice textbox.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_textboxChoice",

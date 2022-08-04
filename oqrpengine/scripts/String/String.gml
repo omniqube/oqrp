@@ -169,7 +169,7 @@ function string_nato() {
     nato[? "Y"] = "Yankee";   nato[? "Z"] = "Zulu";      nato[? "0"] = "Zero";
     nato[? "1"] = "One";      nato[? "2"] = "Two";       nato[? "3"] = "Three";
     nato[? "4"] = "Four";     nato[? "5"] = "Five";      nato[? "6"] = "Six";
-    nato[? "7"] = "Seven";    nato[? "8"] = "Eight";     nato[? "9"] = "Niner";
+    nato[? "7"] = "Seven";    nato[? "8"] = "Eight";     nato[? "9"] = "Nine";
  
     for (var i=1; i<len; i++) {
         var c = string_char_at(in ,i);
@@ -186,7 +186,7 @@ function string_parse() {
 //  Returns a ds_list containing all substring elements within
 //  a given string which are separated by a given token.
 //  eg. string_parse("cat|dog|house|bee", "|", true)
-//      returns a ds_list { "cat", "dog", "house", "bee" }
+//  returns a ds_list { "cat", "dog", "house", "bee" }
     var str,token,ignore,list,tlen,temp;
     str = argument0;
     token = argument1;

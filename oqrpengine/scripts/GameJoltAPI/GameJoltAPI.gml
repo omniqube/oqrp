@@ -1,9 +1,13 @@
-/// GameJolt Custom GMS2 API for OQRP Engine
-// GJAPI 1.2, CAPI 1.1.3
-// See the licenses file.
-
 
 /*
+		Hello! Welcome to my custom GameJolt API for GMS 2.3!
+		*** THIS ONLY WORKS FOR GMS 2.3+ *** It uses a lot of the new features in the 2.3 update nonexistant pre2.3
+
+		To get started change the GJInit() Game ID and Private Key
+		
+		This system is built from the ground up to work with any object, however it NEEDS a control object to function!
+		Before calling anything else make sure you have one instance of a oGJControl (or any other control object) always existing
+		call the GJInit() function, AND call the GJNetworking() in their Async - HTTP event.
 		
 		---SIDENOTE with the onAttempt functions, they can be set to -1 if you do not want to use any function.
 		
@@ -12,6 +16,14 @@
 		I will mark all of the functions that return a map with a comment "MAP DATA" (or "LIST DATA") in the GameJoltAPI script.
 		Be sure to delete these maps when calling these functions to prevent memory leaks. (Example, see GJOnFetchUserAttempt())
 		
+		As your game gets more advanced you're obviously going to need to expand on what is here, but I hope this serves well as a basis.
+		Check out the functions in this create event to make simple events occur when async actions happen such as GJLoginAttempt()
+		
+		Nobody is perfect, if you spot any bugs, or question my awful programming methods.
+		Please do let me know! I am always up to improve this API.
+		
+		Created by DustBunneGames. <3
+		GMS2 Custom API Version 1.1.3, GameJolt API Version 1.2
 */
 
 

@@ -1,7 +1,7 @@
 exception_unhandled_handler( function (exception) {
 	window_set_caption("OQRP ENGINE EXCEPTION");
 		
-		if (!global.developerMode) {
+		if (!global.developerMode || !global.nodebug_dev) {
 		_filename = memlog(exception); // Dump memory into error log file
 		show_message("████████████████ OQRP ████████████████\n\nThe Game has Crashed!\nError ID: " + generateerrorid(exception) +"\n\nSee the Error Log for more details.\n(" + global.oqrp.dir.errorlog + _filename + ")\n\n███████████████████████████████████");
 		} else {
@@ -48,10 +48,11 @@ return errorid;
 
 function customerrormessage(title, text, action) {
 	window_set_caption(title);
-	show_message(text);
 	switch action {
-		case "EXIT": game_end(); return;
-		case "RESTART": game_restart(); return;
-		default: return;
+		case "EXIT": show_message(text); game_end(); return;
+		case "RESTART": show_message(text); game_restart(); return;
+		case "CONTINUE": show_message(text); return;
+		case "ASYNC": show_message_async(text); return;
+		default: window_set_caption(global.oqrp.game.name); return;
 	}
 }

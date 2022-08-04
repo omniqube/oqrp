@@ -1,8 +1,9 @@
 /// OQRP Engine GameJolt API Integration
-// Scripts/oqrp/GameJoltAPI
+// Scripts/oqrp/GameJoltAPI.gml
+// See the licenses note for more information.
 
 if (!global.oqrp.gj.active) {instance_destroy();}
-//GJInit(global.oqrp.gameid, global.oqrp.key, bool_to_bin(global.developerMode));
+GJInit(global.oqrp.gameid, global.oqrp.key, bool_to_bin(global.developerMode));
 
 if (file_exists(working_directory + ".gj_credentials")) {}
 

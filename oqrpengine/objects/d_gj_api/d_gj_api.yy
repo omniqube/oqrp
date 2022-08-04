@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "driver",
-    "path": "folders/Objects/oqrp/driver.yy",
+    "name": "GameJolt",
+    "path": "folders/Objects/oqrp/driver/GameJolt.yy",
   },
   "resourceVersion": "1.0",
   "name": "d_gj_api",

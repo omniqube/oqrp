@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "name",
-    "path": "folders/Objects/FrontEnd Game/name.yy",
+    "path": "folders/Objects/Game/name.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_nameChoice",

@@ -5,7 +5,6 @@ function oqrp_configmap() {
 		
 		// Game Settings
 		game : {
-			
 			name: "OQRP Engine Project",
 			author: "OmniQube",
 			version: 0,
@@ -19,7 +18,7 @@ function oqrp_configmap() {
 			
 			name: "OQRP Engine",
 			dev: "OmniQube",
-			version: 220801,
+			version: 220804,
 			allow_mods: false,
 			fbsc: os_get_info()
 			
