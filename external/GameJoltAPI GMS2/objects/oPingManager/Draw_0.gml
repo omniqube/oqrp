@@ -1,0 +1,1 @@
+draw_text(oLoginButton.x,room_height-oLoginButton.y-string_height("#"),"Ping: "+string(round(Ping))+"ms")

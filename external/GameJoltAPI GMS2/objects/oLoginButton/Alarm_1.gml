@@ -1,0 +1,1 @@
+GJDataFetch("TotalGlobalPops",0,FetchAttempt, -1)

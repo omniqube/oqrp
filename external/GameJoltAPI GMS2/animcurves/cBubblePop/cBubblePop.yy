@@ -1,0 +1,43 @@
+{
+  "function": 1,
+  "channels": [
+    {"colour":4282401023,"visible":true,"points":[
+        {"x":0.0,"y":0.0,},
+        {"x":0.157587543,"y":0.8187919,},
+        {"x":0.305447459,"y":-0.861945152,},
+        {"x":0.494163424,"y":-0.2053295,},
+        {"x":0.5953307,"y":-0.615906954,},
+        {"x":0.692607,"y":0.8287222,},
+        {"x":0.8482491,"y":-0.183449522,},
+        {"x":1.0,"y":0.8120805,},
+      ],"controlPoints":[],"resourceVersion":"1.0","name":"PopX","tags":[],"resourceType":"GMAnimCurveChannel",},
+    {"colour":4294934783,"visible":true,"points":[
+        {"x":0.0,"y":1.0,},
+        {"x":0.157587543,"y":1.0,},
+        {"x":0.305447459,"y":1.0,},
+        {"x":0.494163424,"y":1.0,},
+        {"x":0.5953307,"y":1.0,},
+        {"x":0.692607,"y":0.946308732,},
+        {"x":0.8482491,"y":0.6442953,},
+        {"x":1.0,"y":0.0,},
+      ],"controlPoints":[],"resourceVersion":"1.0","name":"Alpha","tags":[],"resourceType":"GMAnimCurveChannel",},
+    {"colour":4280090460,"visible":true,"points":[
+        {"x":0.0,"y":0.0,},
+        {"x":0.157587543,"y":-0.3154363,},
+        {"x":0.305447459,"y":0.6548334,},
+        {"x":0.494163424,"y":-0.668416739,},
+        {"x":0.5953307,"y":0.54516685,},
+        {"x":0.692607,"y":0.110601358,},
+        {"x":0.8482491,"y":0.487691432,},
+        {"x":1.0,"y":-0.778523445,},
+      ],"controlPoints":[],"resourceVersion":"1.0","name":"PopY","tags":[],"resourceType":"GMAnimCurveChannel",},
+  ],
+  "parent": {
+    "name": "Example Build",
+    "path": "folders/Objects/Example Build.yy",
+  },
+  "resourceVersion": "1.1",
+  "name": "cBubblePop",
+  "tags": [],
+  "resourceType": "GMAnimCurve",
+}
