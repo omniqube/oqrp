@@ -23,7 +23,9 @@ the code / assets provided by the OQRP Engine.
 
 7. OQRP Engine uses the Sphinx Encryption System by JujuAdams (https://github.com/JujuAdams/Sphinx)
 
-8. OQRP Engine uses code and code snippets (sometimes modified) from GMLScripts (GMLScripts.com)
+8. OQRP Engine uses the Reinvented Pixel Art Animation (RPAA) system by ElectroDev1 and aarthificial (https://github.com/ElectroDev1/Reinvented-Pixel-Art-Animation-GM/)
+
+9. OQRP Engine uses code and code snippets (sometimes modified) from GMLScripts (GMLScripts.com)
 This is the GMLScripts license in its full version included as per its section one.
 
 			Copyright (c) 2007-2021, GMLscripts.com

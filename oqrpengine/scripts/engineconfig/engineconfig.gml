@@ -9,7 +9,8 @@ function oqrp_configmap() {
 			author: "OmniQube",
 			version: 0,
 			build: 0,
-			oqupdater: {url: "", downloadurl: ""}
+			oqupdater: {url: "", downloadurl: ""},
+			allow_mods: false
 			
 		},
 		
@@ -18,8 +19,7 @@ function oqrp_configmap() {
 			
 			name: "OQRP Engine",
 			dev: "OmniQube",
-			version: 220804,
-			allow_mods: false,
+			version: 221114,
 			fbsc: os_get_info()
 			
 		},
