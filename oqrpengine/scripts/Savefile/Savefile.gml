@@ -183,14 +183,24 @@ function sv_slot_integrity_check(slot) {
 
 #endregion
 
-function SaveReset(full, num) {
+function SaveReset(full) {
 	if (full) {directory_destroy(global.oqrp.dir.save); return true}
 	else {
+	slotname = file_find_first(global.oqrp.dir.save + "slot*.oqrpsav", 0)
+	while (slotname != "") {
+		file_delete(slotname);
+		slotname = file_find_next();
+	}
+	file_find_close();
+		
+	}
+}
+
+function Delgame(num) {
 	if (!file_exists(global.oqrp.dir.save + "slot" + num + ".oqrpsav")) {return false}
 	else {
 	file_delete(global.oqrp.dir.save + "slot" + num + ".oqrpsav")
 	return true;
-	}
 	}
 }
 
@@ -210,8 +220,8 @@ function sv_reconstruct_tob_as_struct(value) {
 	
 #region Cache // Variable Cache functionality
 function initCache() {global.cache = ds_map_create();}
-function cacheSave(name, value) {ds_map_replace(global.cache, string(name), value);}
-function cacheLoad(name) {return ds_map_find_value(global.cache, string(name));}
+function cachePut(name, value) {ds_map_replace(global.cache, string(name), value);}
+function cacheGet(name) {return ds_map_find_value(global.cache, string(name));}
 #endregion
 
 #region Save DS Manipulation
