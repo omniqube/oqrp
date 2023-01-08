@@ -17,8 +17,6 @@ Goals for the OQRP Engine
 - better update checker
 - auto timed better textbox system
 
-NEW BUILD: ----
-- automatic save corruption checking  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! CHECK THIS - NOT SECURE ENOUGH + BAD FIRST LOAD - POSSIBLE REWRITE
 
 - mod and script support
 - Achievement and quest system
