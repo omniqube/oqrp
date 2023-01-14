@@ -1,5 +1,5 @@
 ### LIST OF OQRP SCRIPTS AND COMMANDS ###
-(This list is not 100% complete. Some features may be hidden or left out due to security reasons.)
+(This list is not 100% complete. Some features may be hidden or left out.)
 Build 220724
 
 

@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "oqrp",
-    "path": "folders/Scripts/oqrp.yy",
+    "name": "Math",
+    "path": "folders/Scripts/oqrp/Math.yy",
   },
   "resourceVersion": "1.0",
   "name": "Collision",

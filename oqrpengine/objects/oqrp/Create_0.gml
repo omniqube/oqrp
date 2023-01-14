@@ -109,7 +109,7 @@ map_timelines(global.oqrp_res.timelines);
 
 #region Auxilliary Functions (Filesystem)
 sv_init();
-if global.oqrp.engine.allow_mods modScan();
+if global.oqrp.game.allow_mods modScan();
 #endregion
 
 LoadScript("EN");
