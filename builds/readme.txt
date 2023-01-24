@@ -1,0 +1,1 @@
+This code is not to be reverse-engineered, or redistributed. Refer to the licences note before use.

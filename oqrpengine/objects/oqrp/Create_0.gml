@@ -25,7 +25,7 @@ global.fullscreen = false;
 
 #region Load Engine Configuration
 gml_pragma("global", "oqrp_configmap()"); // YYC Compiler @startup
-//oqrp_configmap();
+randomize();
 
 window_set_caption(global.oqrp.game.name);
 
@@ -63,7 +63,7 @@ if p_num > 0 {var i;
 
 -devmode: Enables compiled developer mode.
 -console: Enables the console.
--novideo: Skips the intro video for Warpoint.
+-novideo: Skips the intro video, if applicable.
 -forcefs: Forces the game to run in fullscreen.
 -experimental: Enables experimental features.
 -resetbinds: Resets all in-game binds to the default setting.
@@ -88,7 +88,8 @@ initbinds();
 #region Start Engine Drivers
 instance_create_depth(0, 0, 0, d_sound_api); 
 instance_create_depth(0, 0, 0, d_gamepad_api); 
-instance_create_depth(0, 0, 0, d_display_api); 
+instance_create_depth(0, 0, 0, d_display_api);
+instance_create_depth(0, 0, 0, d_network_api)
 if global.oqrp.gj.active instance_create_depth(0, 0, 0, d_gj_api);
 #endregion
 
@@ -113,3 +114,5 @@ if global.oqrp.game.allow_mods modScan();
 #endregion
 
 LoadScript("EN");
+
+engdraw = false;
