@@ -1,10 +1,10 @@
 if (instance_exists(mp_client) && (my_id == mp_client.idd)) {
 	
-	if (input("move_up")) y -= 3;
-	if (input("move_down")) y += 3;
-	if (input("move_left")) x -= 3;
-	if (input("move_right")) x += 3;
-	image_angle = point_direction(x, y, mouse_x, mouse_y);
+		if (input("move_up")) y -= 3;
+		if (input("move_down")) y += 3;
+		if (input("move_left")) x -= 3;
+		if (input("move_right")) x += 3;
+		image_angle = point_direction(x, y, mouse_x, mouse_y);
 	
 	// Send data
 	var buff = buffer_create(32, buffer_grow, 1);

@@ -3,7 +3,8 @@
 enum network {
 	join,
 	move,
-	disconnect
+	disconnect,
+	latency
 }
 
 global.mp_tgip = "127.0.0.1"

@@ -7,6 +7,13 @@ show_console_message("[Server] TG " + string(global.mp_tgport));
 server = network_create_server(network_socket_tcp, global.mp_tgport, max_players);
 total_players = ds_list_create(); // former socket_list
 
+server_instances = ds_map_create();
+server_timeouts = ds_map_create();
+
+instance_to_socket = ds_map_create();
+
+timeout_time = 3;
+
 if (server < 0) {
 	show_message("Error creating server.");
 	game_restart();
