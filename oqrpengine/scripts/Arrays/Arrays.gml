@@ -82,3 +82,30 @@ function array_implode_real() {
     return out;
 }
 
+function array_select_relative(current, delta, choices) {
+    var size = array_length(choices);
+    var list = ds_list_create();
+    var result = undefined;
+    for (var i = 0; i < size; i++) ds_list_add(list, choices[i]);
+    i = ds_list_find_index(list, current);
+    if (i >= 0) {
+        i = clamp(i + delta, 0, size - 1);
+        var result = ds_list_find_value(list, i);
+    }
+    ds_list_destroy(list);
+    return result;
+}
+
+function array_select_relative_wrap(current, delta, choices) {
+    var size = array_length(choices);
+    var list = ds_list_create();
+    var result = undefined;
+    for (var i = 0; i < size; i++) ds_list_add(list, choices[i]);
+    i = ds_list_find_index(list, current);
+    if (i >= 0) {
+        i = (((i + delta) mod size) + size) mod size;
+        result = ds_list_find_value(list, i);
+    }
+    ds_list_destroy(list);
+    return result;
+}
