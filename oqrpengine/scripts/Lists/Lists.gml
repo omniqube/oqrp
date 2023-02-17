@@ -235,6 +235,21 @@ function ds_list_sum_squares() {
     return j;
 }
 
+function ds_list_sum_of_squares(list)
+{
+    var n = ds_list_size(list);
+    if (n == 0) return undefined;
+ 
+    var avg = 0;
+    var sum = 0;
+ 
+    for (var i=0; i<n; i++) avg += ds_list_find_value(list, i);
+    avg /= n;
+    for (var i=0; i<n; i++) sum += sqr(ds_list_find_value(list, i) - avg);
+ 
+    return sum;
+}
+
 function ds_list_variance() {
     var n, avg, sum, i;
     n = ds_list_size(argument0);

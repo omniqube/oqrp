@@ -19,3 +19,4 @@ function sprite_edit_begin() {
     draw_set_alpha(a);
     return (string(surface)+":"+string(sprite));
 }
+

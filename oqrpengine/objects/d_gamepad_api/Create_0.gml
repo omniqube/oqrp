@@ -1,7 +1,10 @@
 // OQRP Gamepad Driver
 
+if (!gamepad_is_supported()) {instance_destroy();}
+global.oqrp_gp = array_create(0);
 
 gp_num = gamepad_get_device_count();
+show_debug_message("NUMBER OF GAMEPADS: " + string(gp_num));
 for (var i = 0; i < gp_num; i++;){
 	if gamepad_is_connected(i) global.oqrp_gp[i] = true else global.oqrp_gp[i] = false;}
 	
