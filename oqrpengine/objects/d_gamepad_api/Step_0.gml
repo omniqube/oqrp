@@ -1,4 +1,4 @@
-if (variable_instance_exists(self, gp_num)) {
+/*if (variable_instance_exists(self, gp_num)) {
 
 for (var i = 0; i < gp_num; i++;){
 	if gamepad_is_connected(i) global.oqrp_gp[i] = true else global.oqrp_gp[i] = false;}
@@ -14,5 +14,5 @@ gpmain_desc = gamepad_get_description(i)
 
 } else {}}
 
-}
+}*/
 

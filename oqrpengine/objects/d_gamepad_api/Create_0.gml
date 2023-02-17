@@ -1,10 +1,11 @@
-// OQRP Gamepad Driver
+// OQRP Gamepad Driver, rewritten for multi-platform and DirectInput support
 
 if (!gamepad_is_supported()) {instance_destroy();}
-global.oqrp_gp = array_create(0);
+//instance_destroy();
 
-gp_num = gamepad_get_device_count();
-show_debug_message("NUMBER OF GAMEPADS: " + string(gp_num));
+/*gp_num = gamepad_get_device_count();
+global.oqrp_gp = array_create(gp_num);
+
 for (var i = 0; i < gp_num; i++;){
 	if gamepad_is_connected(i) global.oqrp_gp[i] = true else global.oqrp_gp[i] = false;}
 	
@@ -18,7 +19,10 @@ global.oqrp_gpmain = i;
 gpmain_GUID = gamepad_get_guid(i)
 gpmain_desc = gamepad_get_description(i)
 
-} else {}}
+} else {}}*/
+
+_default_deadzone = 0.5;
+_default_threshold = 0.1;
 
 function a_vibrate(sec, l, r) {
 	l /= 100; r /= 100;
