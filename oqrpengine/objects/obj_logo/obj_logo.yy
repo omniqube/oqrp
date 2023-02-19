@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_logo",
+    "path": "sprites/spr_logo/spr_logo.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_touchRoom","path":"objects/obj_touchRoom/obj_touchRoom.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":13,"collisionObjectId":null,"parent":{"name":"obj_touchRoom","path":"objects/obj_touchRoom/obj_touchRoom.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +28,7 @@
     "path": "folders/Objects/Warpoint.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_touchRoom",
+  "name": "obj_logo",
   "tags": [],
   "resourceType": "GMObject",
 }

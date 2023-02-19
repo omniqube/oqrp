@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-var font; var text; var textdis; var maxline; var color; var alpha; 
+var font; var text; var textdis; 
+var maxline; var color; var alpha; 
 //Set text specs on obj create event
 /*
 font = which font u want to use

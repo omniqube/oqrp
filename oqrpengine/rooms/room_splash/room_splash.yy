@@ -50,8 +50,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "warpoint",
-    "path": "folders/Rooms/warpoint.yy",
+    "name": "Client",
+    "path": "folders/Rooms/warpoint/Client.yy",
   },
   "resourceVersion": "1.0",
   "name": "room_splash",
