@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "ParametricFunctions",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "Math",
     "path": "folders/Scripts/oqrp/Math.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ParametricFunctions",
-  "tags": [],
-  "resourceType": "GMScript",
 }

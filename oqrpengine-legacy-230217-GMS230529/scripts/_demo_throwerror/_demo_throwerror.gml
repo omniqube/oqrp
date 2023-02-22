@@ -1,0 +1,1 @@
+function _demo_throwerror() {throwerror();}

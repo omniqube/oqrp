@@ -1,0 +1,55 @@
+function intercept_course() {
+//  Returns the course direction required to hit a moving target
+//  at a given projectile speed, or (-1) if no solution is found.
+//
+//      origin      instance with position (x,y), real
+//      target      instance with position (x,y) and (speed), real
+//      speed       speed of the projectile, real
+    var origin,target,pspeed,dir,alpha,phi,beta;
+    origin = argument0;
+    target = argument1;
+    pspeed = argument2;
+    dir = point_direction(origin.x,origin.y,target.x,target.y);
+    alpha = target.speed / pspeed;
+    phi = degtorad(target.direction - dir);
+    beta = alpha * sin(phi);
+    if (abs(beta) >= 1) {
+        return (-1);
+    }
+    dir += radtodeg(arcsin(beta));
+    return dir;
+}
+
+function motion_predict() {
+//  Returns a list data structure populated with the predicted 
+//  positions {x1,y1, x2,y2, ... , xsteps,ysteps} of an instance
+//  with regard to its current motion, friction, and gravity.
+//
+//      instance    instance id, real
+//      steps       number of steps to look ahead, real
+    var instance,steps,dsid,posx,posy,hspd,vspd,grvx,grvy,spd,dir;
+    instance = argument0;
+    steps = argument1;
+    dsid = ds_list_create();
+    with (instance) {
+        posx = x;
+        posy = y;
+        hspd = hspeed;
+        vspd = vspeed;
+        grvx = lengthdir_x(gravity,gravity_direction);
+        grvy = lengthdir_y(gravity,gravity_direction);
+        repeat (steps) {
+            spd = point_distance(0,0,hspd,vspd);
+            spd = max(0, spd-friction)/spd;
+            hspd *= spd;
+            vspd *= spd;
+            hspd += grvx;
+            vspd += grvy;
+            posx += hspd;
+            posy += vspd;
+            ds_list_add(dsid,posx);
+            ds_list_add(dsid,posy);
+        }
+    }
+    return dsid;
+}

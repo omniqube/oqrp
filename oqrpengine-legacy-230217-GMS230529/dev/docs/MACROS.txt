@@ -1,0 +1,15 @@
+--- OQRP ENGINE BUILT-IN MACROS AND GML MODIFICATIONS ---
+
+MACRO		|	DESCRIPTION
+________________________________________________________
+elif		|	Substitute for "else if".
+norun		|	Don't run this line of code. (Use {} for multiple lines)
+defer/after	|	Delay code execution until AFTER is completed. (Usage: defer [CODE#2] after [CODE#1])
+log		|	Shows a debug message. (Usage: log("MESSAGE"))
+implies		|	Implication, a (->) b
+bimplies	|	Bitwise implication
+seq		|	Sequential composition
+echo		|	Show a message in the Console.
+sudo		|	Run a command in the Console.
+_nxtprint	|	Shows a debug message after code initialization.
+

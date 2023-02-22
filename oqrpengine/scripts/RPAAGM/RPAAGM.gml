@@ -27,7 +27,7 @@ function __RPAA_sprite_to_buffer(sprite,image){
 		
 		//Get the color data into a surface
 		var _sprBuff = buffer_create(sprW * sprH * 4, buffer_fixed, 1);
-		buffer_get_surface(_sprBuff, buffer_surface_copy, _surf, 0, 0); // MODIFIED FOR GMS 2.3.0
+		buffer_get_surface(_sprBuff, _surf, 0);
 		
 		//Free the surface and return the buffer
 		surface_free(_surf);
@@ -50,7 +50,7 @@ function __RPAA_buffer_to_sprite(buffer,width,height,xorig,yorig){
 	//Create a surface and apply the buffer's color information
 	var _surf = surface_create(width,height);
 	
-	buffer_set_surface(buffer,_surf,0,0,0); // MODIFIED FOR GMS 2.3.0
+	buffer_set_surface(buffer,_surf,0);
 	
 	//Create a sprite from the surface
 	var _spr = sprite_create_from_surface(_surf,0,0,width,height,0,0,xorig,yorig);

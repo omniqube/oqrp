@@ -1,0 +1,34 @@
+Settings
+	Sound Settings
+		Master Volume
+		Music Volume
+		SFX Volume
+	Controls
+		Keyboard Binds
+			Move Up
+			Move Down
+			Move Right
+			Move Left
+			Confirm
+			Cancel
+			Menu
+			Fullscreen
+			Pause
+			Screenshot
+		Controller Settings
+			Use Controller
+			Controller Binds
+				Move Up
+				Move Down
+				Move Right
+				Move Left
+				Confirm
+				Cancel
+				Menu
+				Pause
+			Controller Vibration Scale
+	Graphical Settings
+		Fullscreen
+		Window Size
+		Brightness
+	Language

@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "Color",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "Graphics",
     "path": "folders/Scripts/oqrp/Graphics.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Color",
-  "tags": [],
-  "resourceType": "GMScript",
 }

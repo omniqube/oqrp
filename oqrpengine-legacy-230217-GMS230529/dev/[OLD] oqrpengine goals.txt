@@ -1,0 +1,23 @@
+Goals for the OQRP Engine
+
+- developer console
+- full pause menu
+- better settings:
+	- sound settings
+	- keyboard rebinds
+	- controller support
+	- window size options
+	- language support
+- dialogue script support (ties in with language)
+- mobile device support
+- launch options
+- better save management
+- better ui responsiveness
+- better item management
+- better update checker
+- auto timed better textbox system
+
+
+- mod and script support
+- Achievement and quest system
+- Developer Commentary
