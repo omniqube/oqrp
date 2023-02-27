@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Warpoint",
-    "path": "folders/Objects/Warpoint.yy",
+    "name": "client",
+    "path": "folders/Objects/Warpoint/client.yy",
   },
   "parentObjectId": null,
   "persistent": false,
