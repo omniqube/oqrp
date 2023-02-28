@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Client",
-    "path": "folders/Sprites/Warpoint/Client.yy",
+    "name": "buttons",
+    "path": "folders/Sprites/Warpoint/Client/buttons.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

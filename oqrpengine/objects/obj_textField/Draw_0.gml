@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-var sprite;
-var dofunction;
-tapactive = 1;
+sprite_index = sprite
+draw_self()
+draw_text(x,y,text)

@@ -1,3 +1,4 @@
 port = 0
 limit = 20
-sprite = spr_join
+maxline = 1
+sprite = spr_ipField
