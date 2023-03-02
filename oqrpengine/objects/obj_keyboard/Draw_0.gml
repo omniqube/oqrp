@@ -9,12 +9,12 @@ for(i = 0; i < 4; i++;){
 	for(j = 0; j < 12; j++){
 		if(string_length(mapcurrent[i][j]) > 1){
 		switch(mapcurrent[i][j]){
-			case "ABC": break;
-			case "BACK": break;
+			case "ABC": draw_sprite(spr_keyboardCtrl,0,x+(j*180),y+(i*108)); break;
+			case "BACK": draw_sprite(spr_keyboardBack,0,x+(j*180),y+(i*108)); break;
 			case "SPACE": break;
-			case "ENTER": break;
-			case "?!&": break;
-			case "SHIFT": break;
+			case "ENTER": draw_sprite(spr_keyboardEnter,0,x+(j*180),y+(i*108)); break;
+			case "?!&": draw_sprite(spr_keyboardCtrl,0,x+(j*180),y+(i*108)); break;
+			case "SHIFT": draw_sprite(spr_keyboardShift,0,x+(j*180),y+(i*108)); break;
 			
 			default: break;
 		}

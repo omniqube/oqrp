@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_keyboardButton",
-  "bbox_bottom": 107,
-  "bbox_left": 0,
-  "bbox_right": 179,
-  "bbox_top": 0,
+  "name": "spr_keyboardEnter",
+  "bbox_bottom": 83,
+  "bbox_left": 56,
+  "bbox_right": 123,
+  "bbox_top": 24,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"99246a1c-a4ff-48f6-9f53-d71bf1eacd0d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a2ff7570-3e16-4b89-aecd-1370117ae495",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 108,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dc7cb2dc-f64a-4b94-bb4b-f8740088a905","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"68001959-3bbb-4ede-9bbc-091543851716","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_keyboardButton",
+    "name": "spr_keyboardEnter",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"99246a1c-a4ff-48f6-9f53-d71bf1eacd0d","path":"sprites/spr_keyboardButton/spr_keyboardButton.yy",},},},"Disabled":false,"id":"4d029800-8da6-4dcc-8596-49e6716c436f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a2ff7570-3e16-4b89-aecd-1370117ae495","path":"sprites/spr_keyboardEnter/spr_keyboardEnter.yy",},},},"Disabled":false,"id":"0b3e2073-335e-4d1a-8add-d75f2aad27eb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

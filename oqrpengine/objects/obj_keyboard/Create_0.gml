@@ -16,4 +16,4 @@ charmap2[2] = ["SHIFT","*","\"","'",":",";","!","?","{","}","ENTER","ENTER"]
 charmap2[3] = ["SPACE","SPACE","%","=",">","<","[","]",",","\\","SPACE","SPACE"]
 mapcurrent = charmap;
 mode = 0;
-text[0] = ""
+parentid = 0

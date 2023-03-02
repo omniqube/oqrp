@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Warpoint",
-    "path": "folders/Sprites/Warpoint.yy",
+    "name": "keyboard",
+    "path": "folders/Sprites/Warpoint/keyboard.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
