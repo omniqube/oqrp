@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-height = 270;
+draw_rectangle(x,y,x+(height/(2+(1/8))),y+height);

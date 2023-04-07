@@ -10,7 +10,7 @@ draw_text(x+(sprite_width/75),y + (sprite_height/2),text)
 if(instance_exists(obj_keyboard)){
 cursortimer++
 if(cursortimer <= 15){
-draw_line(x+(font_get_size(font)/5)+string_width(text),y + (sprite_height/2) - (font_get_size(font)/2) - (font_get_size(font)/4), x+(font_get_size(font)/5)+string_width(text), y + (sprite_height/2) + (font_get_size(font)/2) - (font_get_size(font)/4))
+draw_line(x+(font_get_size(font)/2)+string_width(text),y + (sprite_height/2) - (font_get_size(font)/2) - (font_get_size(font)/8), x+(font_get_size(font)/2)+string_width(text), y + (sprite_height/2) + (font_get_size(font)/2) - (font_get_size(font)/8))
 }
 if(cursortimer = 30){
 cursortimer = 0;	

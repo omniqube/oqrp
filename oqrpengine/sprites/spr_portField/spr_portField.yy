@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_portField",
-  "bbox_bottom": 0,
+  "bbox_bottom": 179,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 319,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7080cf92-da72-430a-ab84-9716c4682ee9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"282287bf-0682-481a-84ae-9f43428f5a17",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 180,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"28d1b98a-e020-4024-a991-4f520ebb40f8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b4f2928e-6359-4e39-8cfb-7cafe5a17dad","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7080cf92-da72-430a-ab84-9716c4682ee9","path":"sprites/spr_portField/spr_portField.yy",},},},"Disabled":false,"id":"1eb2a6e7-9c35-4322-80d7-cda8e587a1eb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"282287bf-0682-481a-84ae-9f43428f5a17","path":"sprites/spr_portField/spr_portField.yy",},},},"Disabled":false,"id":"f8eabc5e-5fd1-4c77-9d34-326d974dc89c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 320,
 }
