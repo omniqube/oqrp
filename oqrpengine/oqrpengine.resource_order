@@ -18,6 +18,7 @@
     {"name":"multiplayer","order":11,"path":"folders/Objects/oqrp/multiplayer.yy",},
     {"name":"Warpoint","order":4,"path":"folders/Objects/Warpoint.yy",},
     {"name":"client","order":3,"path":"folders/Objects/Warpoint/client.yy",},
+    {"name":"ingame","order":7,"path":"folders/Objects/Warpoint/ingame.yy",},
     {"name":"Paths","order":13,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":19,"path":"folders/Rooms.yy",},
     {"name":"warpoint","order":3,"path":"folders/Rooms/warpoint.yy",},
@@ -66,7 +67,6 @@
     {"name":"keyboard","order":3,"path":"folders/Sprites/Warpoint/keyboard.yy",},
     {"name":"Tile Sets","order":11,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":17,"path":"folders/Timelines.yy",},
-    {"name":"ingame","order":7,"path":"folders/Objects/Warpoint/ingame.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"lines","order":3,"path":"scripts/lines/lines.yy",},

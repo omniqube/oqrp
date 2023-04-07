@@ -33,6 +33,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"multiplayer","folderPath":"folders/Objects/oqrp/multiplayer.yy","order":11,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Warpoint","folderPath":"folders/Objects/Warpoint.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"client","folderPath":"folders/Objects/Warpoint/client.yy","order":3,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ingame","folderPath":"folders/Objects/Warpoint/ingame.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":19,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"oqrp","folderPath":"folders/Rooms/oqrp.yy","order":0,},
@@ -87,7 +88,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"keyboard","folderPath":"folders/Sprites/Warpoint/keyboard.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":11,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":17,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ingame","folderPath":"folders/Objects/Warpoint/ingame.yy","order":7,},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"blank.txt","CopyToMask":-1,"filePath":"datafiles/error-logs",},
