@@ -7,4 +7,4 @@ basex = 0; basey = 0;
 //camera of the player /get!
 camera = 0
 //creation of mover
-doOnce = 0
+doonce = 0

@@ -5,7 +5,15 @@ if(device_mouse_check_button(mb_left,i)){
 if(device_mouse_x(i) > x and device_mouse_x(i) < x + sprite_width and device_mouse_y(i) > y and device_mouse_y(i) < y + sprite_height){
 gridx = floor(device_mouse_x(i)/180)
 gridy = floor((device_mouse_y(i)-648)/108)
+log("5 devices dat: \n");
+/*
+log("Device 0: " + string(device_mouse_x(0)) + " , " + string(device_mouse_y(0)));
+log("Device 1: " + string(device_mouse_x(1)) + " , " + string(device_mouse_y(1)));
+log("Device 2: " + string(device_mouse_x(2)) + " , " + string(device_mouse_y(2)));
+log("Device 3: " + string(device_mouse_x(3)) + " , " + string(device_mouse_y(3)));
+log("Device 4: " + string(device_mouse_x(4)) + " , " + string(device_mouse_y(4)));
 log("Tap at keyboard grid: " + string(gridx) + "," + string(gridy))
+*/
 switch(mapcurrent[gridy][gridx]){
 case "?!&": mapcurrent = charmap2; break;
 case "ABC": mapcurrent = charmap; break;
