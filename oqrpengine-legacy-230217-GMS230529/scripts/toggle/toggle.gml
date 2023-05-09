@@ -1,0 +1,1 @@
+function toggle(boolean){return !boolean;}

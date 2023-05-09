@@ -1,0 +1,2 @@
+"|" = pause that is registered like a symbol (3fps/character means 3fps pause)
+"¤" = swaps the option to a second sfx for text

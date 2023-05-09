@@ -1,1 +1,1 @@
-function throwerror() {undefined();}
+function throwerror() {e = undefined; e+=e} // GMS2023 fix

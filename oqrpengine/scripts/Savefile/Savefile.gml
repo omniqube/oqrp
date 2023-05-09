@@ -30,7 +30,7 @@ function sv_persistent_build() {
 	global.psave = ds_map_create();
 	global.psave[? "Launches"] = 1;
 	global.psave[? "VKEY"] = global.oqrpsum;
-	psave_file = ini_open(global.oqrp.dir.save + "persistent.oqrpsav")
+	ini_open(global.oqrp.dir.save + "persistent.oqrpsav")
 	psave_timeofbuild = string(current_year) + "?" + string(current_month) + "?" + string(current_day) + "?" + string(current_hour) + "?" + string(current_minute) + "?" + string(current_second)
 	ini_write_real("Config", "EngineBuild", global.oqrp.engine.version)
 	ini_write_real("Config", "GameVersion", global.oqrp.game.version)
@@ -43,7 +43,7 @@ function sv_persistent_build() {
 
 function SavegamePersistent() {
 	global.psave[? "VKEY"] = oqrp.oqrpsum;
-	psave_file = ini_open(global.oqrp.dir.save + "persistent.oqrpsav")
+	ini_open(global.oqrp.dir.save + "persistent.oqrpsav")
 	psave_timeofbuild = string(current_year) + "?" + string(current_month) + "?" + string(current_day) + "?" + string(current_hour) + "?" + string(current_minute) + "?" + string(current_second)
 	ini_write_real("Config", "EngineBuild", global.oqrp.engine.version)
 	ini_write_real("Config", "GameVersion", global.oqrp.game.version)
@@ -56,8 +56,8 @@ function SavegamePersistent() {
 
 function LoadgamePersistent() {
 	global.psave = ds_map_create();
-	psave_file = ini_open(global.oqrp.dir.save + "persistent.oqrpsav")
-	if (!sv_persistent_integcheck(psave_file)) {
+	ini_open(global.oqrp.dir.save + "persistent.oqrpsav")
+	if (!sv_persistent_integcheck()) {
 		ini_close(); SaveReset(true)
 		customerrormessage("OQRP ENGINE EXCEPTION", "Error: Persistent file failed integrity check! The file may be corrupted, or has been tampered with.\nSave files cannot be recovered. Game will now reset to a default configuration.", "RESTART")}
 		else {
@@ -68,7 +68,9 @@ function LoadgamePersistent() {
 		}
 }
 
-function sv_persistent_integcheck(persfile) {
+function sv_persistent_integcheck() {
+	
+	// Due to an error with assigning ini files to variables, this function was rewritten to not take an argument. Make sure that the persistent save file is opened before using this function.
 	
 	if (!ini_section_exists("Config") || !ini_section_exists("Data") ||
 	!ini_key_exists("Config", "EngineBuild") || !ini_key_exists("Config", "GameVersion") || !ini_key_exists("Config", "GameName") || !ini_key_exists("Config", "TOB") ||
@@ -102,7 +104,7 @@ function sv_slot_init() { // See available slots
 	slotname = file_find_first(global.oqrp.dir.save + "slot*.oqrpsav", 0)
 	slotno = 0;
 	while (slotname != "") {
-		_slotini = ini_open(slotname)
+		ini_open(slotname)
 		if (ini_section_exists("Info") && ini_key_exists("Info", "PreLoad")) {ds_list_add(global.save_special, ini_read_string("Info", "PreLoad", ""))}
 		else {ds_list_add(global.save_special, "")}
 		ini_close()
@@ -145,8 +147,8 @@ function Loadgame(slot) {
 	if (!file_exists(global.oqrp.dir.save + "slot" + slot + ".oqrpsav")) {
 		customerrormessage("OQRP ENGINE EXCEPTION", "Error: Save File does not exist. Game will now restart.", "RESTART")
 	} 
-	slot_file = ini_open(global.oqrp.dir.save + "slot" + slot + ".oqrpsav")
-	if (!sv_slot_integrity_check(slot_file)) {
+	ini_open(global.oqrp.dir.save + "slot" + slot + ".oqrpsav")
+	if (!sv_slot_integrity_check(slot)) {
 		customerrormessage("OQRP ENGINE EXCEPTION", "Error: Save File failed to load!\nThe file may be corrupted, or has been tampered with.", "EXIT")
 	}
 	
