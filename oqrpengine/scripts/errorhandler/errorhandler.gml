@@ -2,12 +2,16 @@ exception_unhandled_handler( function (exception) {
 	window_set_caption("OQRP ENGINE EXCEPTION");
 		
 		if (!global.developerMode || !global.nodebug_dev) {
+			if (global.oqrp.allow_error_logging) {
 		_filename = memlog(exception); // Dump memory into error log file
-		show_message("████████████████ OQRP ████████████████\n\nThe Game has Crashed!\nError ID: " + generateerrorid(exception) +"\n\nSee the Error Log for more details.\n(" + global.oqrp.dir.errorlog + _filename + ")\n\n███████████████████████████████████");
+		show_message("█████████████ OQRP █████████████\n\nThe Game has Crashed!\nError ID: " + generateerrorid(exception) +"\n\nSee the Error Log for more details.\n(" + global.oqrp.dir.errorlog + _filename + ")\n\n███████████████████████████████████");
+			} else {
+				show_message("█████████████ OQRP █████████████\n\nThe Game has Crashed!\nError ID: " + generateerrorid(exception) + "\n\n███████████████████████████████████");
+			}
 		} else {
 			show_debug_message(string(exception));
 		show_message(
-		"████████████████ OQRP ████████████████\n\n" +
+		"█████████████ OQRP █████████████\n\n" +
 		"OQRP has encountered a fatal error and will abort code execution.\n\n" +
 		"OQRP_ERROR_ID: " + generateerrorid(exception) + "\n" +
 		"Message: " + exception.message + "\n" +
@@ -19,7 +23,7 @@ exception_unhandled_handler( function (exception) {
 		"Engine Build: " + string(global.oqrp.engine.version) + "\n" +
 		"Game Build: " + string(global.oqrp.game.version) + "\n\n" +
 		"See the Console for additional details.\n" + 
-		"███████████████████████████████████"
+		"█████████████████████████████"
 		);
 		}
 	
