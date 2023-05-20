@@ -9,7 +9,11 @@
   "option_operagx_internalShareUrl": "",
   "option_operagx_interpolate_pixels": true,
   "option_operagx_mod_editUrl": "",
+<<<<<<< HEAD
   "option_operagx_mod_game_name": "oqrpengine",
+=======
+  "option_operagx_mod_game_name": "${project_name}",
+>>>>>>> Warpoint
   "option_operagx_mod_guid": "",
   "option_operagx_mod_internalShareUrl": "",
   "option_operagx_mod_next_version": "1.0.0.0",

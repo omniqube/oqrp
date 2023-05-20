@@ -67,6 +67,8 @@
     {"name":"keyboard","order":3,"path":"folders/Sprites/Warpoint/keyboard.yy",},
     {"name":"Tile Sets","order":11,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":17,"path":"folders/Timelines.yy",},
+    {"name":"player","order":4,"path":"folders/Sprites/Warpoint/player.yy",},
+    {"name":"map","order":5,"path":"folders/Sprites/Warpoint/map.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"lines","order":3,"path":"scripts/lines/lines.yy",},
@@ -101,6 +103,7 @@
     {"name":"mptestroom","order":2,"path":"rooms/mptestroom/mptestroom.yy",},
     {"name":"polygons","order":5,"path":"scripts/polygons/polygons.yy",},
     {"name":"toggle","order":6,"path":"scripts/toggle/toggle.yy",},
+    {"name":"spr_basePlayerBlue","order":1,"path":"sprites/spr_basePlayerBlue/spr_basePlayerBlue.yy",},
     {"name":"map_sprites","order":6,"path":"scripts/map_sprites/map_sprites.yy",},
     {"name":"Bitwise","order":1,"path":"scripts/Bitwise/Bitwise.yy",},
     {"name":"obj_playerUTO","order":3,"path":"objects/obj_playerUTO/obj_playerUTO.yy",},
