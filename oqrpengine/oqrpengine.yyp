@@ -299,7 +299,7 @@
     {"id":{"name":"obj_keyboard","path":"objects/obj_keyboard/obj_keyboard.yy",},},
     {"id":{"name":"draw_get_button","path":"scripts/draw_get_button/draw_get_button.yy",},},
     {"id":{"name":"Collision","path":"scripts/Collision/Collision.yy",},},
-    {"id":{"name":"gamecontroller","path":"objects/gamecontroller/gamecontroller.yy",},},
+    {"id":{"name":"surface","path":"objects/surface/surface.yy",},},
     {"id":{"name":"erf","path":"scripts/erf/erf.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"_mp_host","path":"scripts/_mp_host/_mp_host.yy",},},

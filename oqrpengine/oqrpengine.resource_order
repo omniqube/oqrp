@@ -213,7 +213,7 @@
     {"name":"obj_keyboard","order":6,"path":"objects/obj_keyboard/obj_keyboard.yy",},
     {"name":"draw_get_button","order":4,"path":"scripts/draw_get_button/draw_get_button.yy",},
     {"name":"Collision","order":5,"path":"scripts/Collision/Collision.yy",},
-    {"name":"gamecontroller","order":6,"path":"objects/gamecontroller/gamecontroller.yy",},
+    {"name":"surface","order":6,"path":"objects/surface/surface.yy",},
     {"name":"erf","order":1,"path":"scripts/erf/erf.yy",},
     {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
     {"name":"Modloader","order":16,"path":"scripts/Modloader/Modloader.yy",},

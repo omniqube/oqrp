@@ -28,7 +28,7 @@ function oqrp_configmap() {
 		
 		gj : { // GameJolt API Settings
 		
-			active: true,
+			active: false,
 			gameid: 647955,
 			key: "bda243824af22578e13f3338c61f7b21"
 			
