@@ -1,7 +1,7 @@
 draw_text(0,0,"CLIENT MODE, TARGET=" + string(global.mp_tgip) + ":" + string(global.mp_tgport));
 
 latency_actual = abs(latency-30);
-tickrate = room_speed;
+tickrate = global.realtime;
 hop = round(latency/2)-round(latency_actual/2);
 sv = round((1000/tickrate)/2);
 

@@ -1,3 +1,3 @@
 engdraw = false;
-room_goto(room_splash);
+room_goto(testroom);
 global.lockedGameInput = false;

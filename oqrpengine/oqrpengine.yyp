@@ -86,10 +86,10 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"buttons","folderPath":"folders/Sprites/Warpoint/Client/buttons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"textfields","folderPath":"folders/Sprites/Warpoint/Client/textfields.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"keyboard","folderPath":"folders/Sprites/Warpoint/keyboard.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"map","folderPath":"folders/Sprites/Warpoint/map.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Sprites/Warpoint/player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Sprites/Warpoint/player.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"map","folderPath":"folders/Sprites/Warpoint/map.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"blank.txt","CopyToMask":-1,"filePath":"datafiles/error-logs",},
@@ -106,7 +106,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.4.0.84",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"lines","path":"scripts/lines/lines.yy",},},
@@ -191,6 +191,7 @@
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},},
     {"id":{"name":"SpecialCharacters","path":"notes/SpecialCharacters/SpecialCharacters.yy",},},
     {"id":{"name":"d_display_api","path":"objects/d_display_api/d_display_api.yy",},},
+    {"id":{"name":"d_gj_api","path":"objects/d_gj_api/d_gj_api.yy",},},
     {"id":{"name":"spr_keyboardBack","path":"sprites/spr_keyboardBack/spr_keyboardBack.yy",},},
     {"id":{"name":"CONSOLE","path":"objects/CONSOLE/CONSOLE.yy",},},
     {"id":{"name":"_restart","path":"scripts/_restart/_restart.yy",},},
@@ -270,6 +271,7 @@
     {"id":{"name":"show_console_message","path":"scripts/show_console_message/show_console_message.yy",},},
     {"id":{"name":"foreach","path":"scripts/foreach/foreach.yy",},},
     {"id":{"name":"drawspr","path":"scripts/drawspr/drawspr.yy",},},
+    {"id":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
     {"id":{"name":"spr_heartchoice","path":"sprites/spr_heartchoice/spr_heartchoice.yy",},},
     {"id":{"name":"spr_introCover","path":"sprites/spr_introCover/spr_introCover.yy",},},
     {"id":{"name":"room_testgame","path":"rooms/room_testgame/room_testgame.yy",},},
@@ -306,6 +308,7 @@
     {"id":{"name":"room_intro","path":"rooms/room_intro/room_intro.yy",},},
     {"id":{"name":"oqautoupdater","path":"objects/oqautoupdater/oqautoupdater.yy",},},
     {"id":{"name":"WarFont12","path":"fonts/WarFont12/WarFont12.yy",},},
+    {"id":{"name":"GameJolt","path":"scripts/GameJolt/GameJolt.yy",},},
     {"id":{"name":"fade","path":"objects/fade/fade.yy",},},
     {"id":{"name":"spr_keyboardButton","path":"sprites/spr_keyboardButton/spr_keyboardButton.yy",},},
     {"id":{"name":"spr_basePlayerRed","path":"sprites/spr_basePlayerRed/spr_basePlayerRed.yy",},},
@@ -324,6 +327,7 @@
     {"roomId":{"name":"room_name","path":"rooms/room_name/room_name.yy",},},
     {"roomId":{"name":"mptestroom","path":"rooms/mptestroom/mptestroom.yy",},},
     {"roomId":{"name":"room_testgame","path":"rooms/room_testgame/room_testgame.yy",},},
+    {"roomId":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

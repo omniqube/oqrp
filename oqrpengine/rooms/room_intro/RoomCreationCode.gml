@@ -1,1 +1,1 @@
-room_speed = 30;
+global.realtime = 30;

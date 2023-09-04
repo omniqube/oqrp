@@ -244,7 +244,7 @@ function draw_rectangle_dashed_color() {
     }
  
     // main script begin
-    var x1,y1,x2,y2,u1,v1,u2,v2,alpha;;
+    var x1,y1,x2,y2,u1,v1,u2,v2,alpha;
     x1 = min(argument0,argument2);
     y1 = min(argument1,argument3);
     x2 = max(argument0,argument2);

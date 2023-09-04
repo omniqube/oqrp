@@ -1,6 +1,6 @@
-function map_paths(arg0){
+function map_paths(){
 var no,i,ds_map;
-    ds_map = arg0;
+    ds_map = argument0;
     no = path_add();
     path_delete(no);
     for (i=0; i<no; i+=1) {

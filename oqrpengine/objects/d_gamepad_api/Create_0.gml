@@ -26,6 +26,6 @@ _default_threshold = 0.1;
 
 function a_vibrate(sec, l, r) {
 	l /= 100; r /= 100;
-	alarm[0] = room_speed * sec
+	alarm[0] = global.realtime * sec
 	gamepad_set_vibration(global.oqrp_gpmain, l, r)
 }

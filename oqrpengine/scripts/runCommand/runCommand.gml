@@ -1,18 +1,18 @@
 function runCommand(cmd) {
 
-  var array = string_split(cmd, " ");
-  if (string_length(array[0]) > 0)
+  var carray = string_split(cmd, " ");
+  if (string_length(carray[0]) > 0)
   {
     //if (string_char_at(array[0], 1) == "/")
     //{
       //array[0] = string_delete(array[0], 1, 1);
-	  scriptName = string_insert("_", array[0], 0)
-	  for(i = array_length(array) - 2; i >= 0; i--){newarray[i] = array[i];}
+	  scriptName = string_insert("_", carray[0], 0)
+	  for(i = array_length(carray) - 2; i >= 0; i--){newarray[i] = carray[i];}
 	  var scriptAsset = asset_get_index(scriptName)
       if (script_exists(scriptAsset)) {
 		  
-		  compiledarray = array_create();
-		  for (i = 1; i < array_length(array); i++) {compiledarray[i-1] = array[i]}
+		  compiledarray = array_create(array_length(carray));
+		  for (i = 1; i < array_length(carray); i++) {compiledarray[i-1] = carray[i]}
         commandResult = string(script_execute(scriptAsset, compiledarray));
 		if (commandResult == 0) {commandResult = ""}
 		

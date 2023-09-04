@@ -1,4 +1,4 @@
-duration = 60;
+duration = 120;
 targetRoom = enginetestroom;
 color = c_white;
 ramp = false;

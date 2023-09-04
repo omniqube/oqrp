@@ -4,11 +4,11 @@
 #macro as , function
 
 /// @function foreach(array as (element, [index])
-function foreach(array, func) { 
-    var size = array_length(array);
+function foreach(arra, func) { 
+    var size = array_length(arra);
     
     for (var i = 0; i < size; i++) {       
-        var element = array[i];
+        var element = arra[i];
         func(element, i);
     }
 }

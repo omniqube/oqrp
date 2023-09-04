@@ -5,7 +5,7 @@ buffer_write(lbuff, buffer_u32, current_time);
 network_send_packet(client, lbuff, buffer_tell(lbuff));
 
 timeout++;
-if (timeout > room_speed*timeout_time) {
+if (timeout > global.realtime*timeout_time) {
 	disconnect();
 	show_message("Connection timed out.");
 	game_restart();

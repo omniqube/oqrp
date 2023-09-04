@@ -9,8 +9,8 @@ evid = ds_map_find_value(async_load, "id")
 		file = file_text_open_write("oqau_verdwn.ini")
 		file_text_write_string(file, result)
 		file_text_close(file)
-		break
-		default: break;
+		break;
+		default: return;
 		
 	}
 	

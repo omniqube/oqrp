@@ -6,22 +6,22 @@ function array() {
 
 function array_add() {
     var r = argument[0];
-    var o = array_length_1d(r) - 1;
+    var o = array_length(r) - 1;
     var i = argument_count;
     while (--i > 0) r[@o + i] = argument[i];
     return r;
 }
 
 function array_sort() {
-    var array = argument0;
+    var arra = argument0;
     var ascend = argument1;
     var list = ds_list_create();
-    var count = array_length_1d(array);
+    var count = array_length(arra);
     for (var i=0; i<count; i++) list[| i] = array[i];
     ds_list_sort(list, ascend);
     for (i=0; i<count; i++) array[i] = list[| i];
     ds_list_destroy(list);
-    return array;
+    return arra;
 }
 
 function array_explode() {
@@ -59,7 +59,7 @@ function array_implode() {
     var arr = argument1;
     var out = "";
     var ind = 0;
-    var num = array_length_1d(arr);
+    var num = array_length(arr);
     repeat (num-1) {
         out += arr[ind] + del;
         ind++;
@@ -73,7 +73,7 @@ function array_implode_real() {
     var arr = argument1;
     var out = "";
     var ind = 0;
-    var num = array_length_1d(arr);
+    var num = array_length(arr);
     repeat (num-1) {
         out += string(arr[ind]) + del;
         ind++;

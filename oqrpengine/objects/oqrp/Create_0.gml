@@ -9,9 +9,9 @@
 ╚██████╔╝╚██████╔╝██║  ██║██║         ███████╗██║ ╚████║╚██████╔╝██║██║ ╚████║███████╗
  ╚═════╝  ╚══▀▀═╝ ╚═╝  ╚═╝╚═╝         ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝
                                                                                                                                                                                                                                  
-			OQRP Engine
-		Developed by OmniQube
-		©2021-2023 OmniQube
+								OQRP Engine
+							Developed by OmniQube
+							©2021-2023 OmniQube
 		   
 */
 
@@ -19,15 +19,17 @@
 // https://omniqube.github.io/
 
 #region preinit
+gml_pragma("global", "oqrp_configmap()"); // YYC Compiler @startup
 global.nodebug_dev = true;
 global.fullscreen = false;
 #endregion
 
 #region Load Engine Configuration
-gml_pragma("global", "oqrp_configmap()"); // YYC Compiler @startup
 randomize();
 
 window_set_caption(global.oqrp.game.name);
+game_set_speed(60, gamespeed_fps);
+global.realtime = 60;
 
 if (debug_mode || global.nodebug_dev) {
 global.consoleEnabled = true;
@@ -89,7 +91,8 @@ initbinds();
 instance_create_depth(0, 0, 0, d_sound_api); 
 instance_create_depth(0, 0, 0, d_gamepad_api); 
 instance_create_depth(0, 0, 0, d_display_api);
-instance_create_depth(0, 0, 0, d_network_api)
+instance_create_depth(0, 0, 0, d_network_api);
+instance_create_depth(0, 0, 0, d_gj_api);
 #endregion
 
 alarm[0] = 1

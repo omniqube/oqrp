@@ -2,7 +2,7 @@
 
 for (_k = ds_map_find_first(server_timeouts); !is_undefined(_k); _k = ds_map_find_next(server_timeouts, _k)) {
   _v = server_timeouts[? _k];
-  if (_v >= room_speed*timeout_time) {disconnect_player(_k);}
+  if (_v >= global.realtime*timeout_time) {disconnect_player(_k);}
   else {_v++;}
 }
 

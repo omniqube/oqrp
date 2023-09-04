@@ -11,7 +11,7 @@ function server_data(){
 	switch (PACKET_ID) {
 		
 		case network.move:			// Handle move enum
-			var player_id = buffer_read(packet, buffer_u16);	// Read contents in order
+			var pid = buffer_read(packet, buffer_u16);	// Read contents in order
 			var player_x = buffer_read(packet, buffer_s16);
 			var player_y = buffer_read(packet, buffer_s16);
 			var player_angle = buffer_read(packet, buffer_s16);
@@ -40,7 +40,7 @@ function server_data(){
 			buffer_seek(lbuff, buffer_seek_start, 0);
 			buffer_write(lbuff, buffer_u8, network.latency);
 			buffer_write(lbuff, buffer_u32, _time);
-			network_send_packet(socket, lbuff, buffer_tell);
+			network_send_packet(socket, lbuff, buffer_tell(lbuff));
 			buffer_delete(lbuff);
 		break;
 		
