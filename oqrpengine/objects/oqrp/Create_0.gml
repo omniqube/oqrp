@@ -95,6 +95,8 @@ instance_create_depth(0, 0, 0, d_network_api);
 instance_create_depth(0, 0, 0, d_gj_api);
 #endregion
 
+EngineObjectList();
+
 alarm[0] = 1
 alarm[1] = 2
 alarm[3] = 1
@@ -118,3 +120,4 @@ if global.oqrp.game.allow_mods modScan();
 LoadScript("EN");
 
 engdraw = false;
+

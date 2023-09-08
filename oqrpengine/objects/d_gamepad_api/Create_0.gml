@@ -1,5 +1,9 @@
-// OQRP Gamepad Driver, rewritten for multi-platform and DirectInput support
+/// OQRP Gamepad Driver
+// rewritten for multi-platform and DirectInput support
 
+// FIX THIS DRIVER
+
+global.oqrp_gpmain = -1; 
 if (!gamepad_is_supported()) {instance_destroy();}
 //instance_destroy();
 

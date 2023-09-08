@@ -14,8 +14,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "GameJolt",
-    "path": "folders/Objects/oqrp/driver/GameJolt.yy",
+    "name": "async",
+    "path": "folders/Objects/oqrp/driver/async.yy",
   },
   "parentObjectId": null,
   "persistent": true,

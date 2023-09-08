@@ -361,3 +361,30 @@ function motion_blur() {
     }
     return 0;
 }
+
+function motion_blur_custom() {
+    length = argument1;
+ 
+    if (length > 0) {
+        st = 3;
+        dir = degtorad(argument2);
+        px = cos(dir);
+        py = -sin(dir);
+ 
+        a = 1/(length/st);
+        if (a >= 1) {
+            draw_sprite_ext(argument0,0,0,0,1,
+                1,0,0,1);
+            a /= 2;
+        }
+ 
+        for(i=length;i>=0;i-=st) {
+            draw_sprite_ext(argument0,0,0+(px*i),0+(py*i),
+                1,1,0,0,a);
+        }
+    } else {    
+        draw_sprite_ext(argument0,0,0,0,1,
+            1,0,0,1);
+    }
+    return 0;
+}

@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.13271,
+  "duration": 0.12771,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",

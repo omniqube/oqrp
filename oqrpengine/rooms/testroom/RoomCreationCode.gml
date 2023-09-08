@@ -1,2 +1,3 @@
-window_set_size(700,700);
-surface_resize(application_surface, 700, 700);
+window_set_size(room_width,room_height);
+surface_resize(application_surface, room_width, room_height);
+

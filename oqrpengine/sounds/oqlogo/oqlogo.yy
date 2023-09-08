@@ -10,10 +10,10 @@
   "bitRate": 512,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 15.053,
+  "duration": 15.048,
   "parent": {
-    "name": "SFX",
-    "path": "folders/Sounds/SFX.yy",
+    "name": "oqrp",
+    "path": "folders/Sounds/SFX/oqrp.yy",
   },
   "preload": false,
   "sampleRate": 48000,

@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "oqrpengine",
-    "path": "oqrpengine.yyp",
+    "name": "oqrp",
+    "path": "folders/Sprites/oqrp.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
