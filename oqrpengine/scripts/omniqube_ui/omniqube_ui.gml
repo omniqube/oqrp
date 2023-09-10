@@ -28,7 +28,7 @@ function PauseScreen() {
 
 ///@func stime_formatted(number)
 ///@desc Returns a draw-ready string of the current hour/minute/second with a "0" applied to it if it is less than 10.
-///@param {Integer} number The hour/minute/second to format.
+///@param {Real} number The hour/minute/second to format.
 ///@returns {String} A string of the formatted time value.
 ///@pure
 function stime_formatted(number) {

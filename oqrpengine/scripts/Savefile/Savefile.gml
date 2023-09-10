@@ -38,7 +38,7 @@ function sv_persistent_build() {
 	ini_write_string("Config", "TOB", psave_timeofbuild)
 	ini_write_real("Data", "VK", global.oqrpsum)
 	ini_write_string("Data", "Chunk", SphinxEncryptString(json_encode(global.psave), str2utf8_undecodable_add(global.oqrp.engine.fbsc[? "udid"] + " " + global.oqrp.game.name + " Persistent " + psave_timeofbuild)))
-	ini_close()
+	ini_close();
 }
 
 function SavegamePersistent() {
@@ -51,7 +51,7 @@ function SavegamePersistent() {
 	ini_write_string("Config", "TOB", psave_timeofbuild)
 	ini_write_real("Data", "VK", global.oqrpsum)
 	ini_write_string("Data", "Chunk", SphinxEncryptString(json_encode(global.psave), str2utf8_undecodable_add(global.oqrp.engine.fbsc[? "udid"] + " " + global.oqrp.game.name + " Persistent " + psave_timeofbuild)))
-	ini_close()
+	ini_close();
 }
 
 function LoadgamePersistent() {
@@ -230,6 +230,13 @@ function cacheGet(name) {return ds_map_find_value(global.cache, string(name));}
 function savePut(name, value) {ds_map_replace(global.save, string(name), value);}
 function saveGet(name) {return ds_map_find_value(global.save, string(name));}
 
+function savePut_dsmap(name, value) {if (not ds_map_is_map(global.save, string(name))) {ds_map_add_map(global.save, string(name), value)} else {ds_map_replace_map(global.save, string(name), value)}}
+function savePut_dslist(name, value) {if (not ds_map_is_list(global.save, string(name))) {ds_map_add_list(global.save, string(name), value)} else {ds_map_replace_list(global.save, string(name), value)}}
+
 function psavePut(name, value) {ds_map_replace(global.psave, string(name), value);}
 function psaveGet(name) {return ds_map_find_value(global.psave, string(name));}
+
+function psavePut_dsmap(name, value) {if (not ds_map_is_map(global.psave, string(name))) {ds_map_add_map(global.psave, string(name), value)} else {ds_map_replace_map(global.psave, string(name), value)}}
+function psavePut_dslist(name, value) {if (not ds_map_is_list(global.psave, string(name))) {ds_map_add_list(global.psave, string(name), value)} else {ds_map_replace_list(global.psave, string(name), value)}}
 #endregion
+

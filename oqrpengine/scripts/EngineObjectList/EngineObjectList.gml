@@ -6,7 +6,7 @@ function EngineObjectList(){
 	
 	oqrp, oqui, err, oqautoupdater,
 	
-	d_gj_api, d_display_api, d_gamepad_api, d_network_api, d_sound_api
+	d_gj_api_old, d_display_api, d_gamepad_api, d_network_api, d_sound_api
 	
 	];
 	

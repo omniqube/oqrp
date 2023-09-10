@@ -1,5 +1,5 @@
 /// @desc Session Manager
-
+/*
 if (not gj_session_check()) {
 
 

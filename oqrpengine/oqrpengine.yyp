@@ -83,6 +83,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Name","folderPath":"folders/Sprites/FrontEnd Game/Name.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"textbox","folderPath":"folders/Sprites/FrontEnd Game/textbox.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Menu","folderPath":"folders/Sprites/Menu.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"oqrp","folderPath":"folders/Sprites/oqrp.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Warpoint","folderPath":"folders/Sprites/Warpoint.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Client","folderPath":"folders/Sprites/Warpoint/Client.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"buttons","folderPath":"folders/Sprites/Warpoint/Client/buttons.yy",},
@@ -92,7 +93,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Sprites/Warpoint/player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"oqrp","folderPath":"folders/Sprites/oqrp.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"blank.txt","CopyToMask":-1,"filePath":"datafiles/error-logs",},
@@ -109,7 +109,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.8.0.98",
   },
   "resources": [
     {"id":{"name":"lines","path":"scripts/lines/lines.yy",},},
@@ -203,7 +203,7 @@
     {"id":{"name":"SpecialCharacters","path":"notes/SpecialCharacters/SpecialCharacters.yy",},},
     {"id":{"name":"d_display_api","path":"objects/d_display_api/d_display_api.yy",},},
     {"id":{"name":"oqui_close","path":"sounds/oqui_close/oqui_close.yy",},},
-    {"id":{"name":"d_gj_api","path":"objects/d_gj_api/d_gj_api.yy",},},
+    {"id":{"name":"d_gj_api_old","path":"objects/d_gj_api_old/d_gj_api_old.yy",},},
     {"id":{"name":"spr_keyboardBack","path":"sprites/spr_keyboardBack/spr_keyboardBack.yy",},},
     {"id":{"name":"CONSOLE","path":"objects/CONSOLE/CONSOLE.yy",},},
     {"id":{"name":"oqui_open","path":"sounds/oqui_open/oqui_open.yy",},},
@@ -283,6 +283,7 @@
     {"id":{"name":"oqui_message","path":"sounds/oqui_message/oqui_message.yy",},},
     {"id":{"name":"Arrays","path":"scripts/Arrays/Arrays.yy",},},
     {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},},
+    {"id":{"name":"d_gj_api","path":"objects/d_gj_api/d_gj_api.yy",},},
     {"id":{"name":"spr_textboxBox","path":"sprites/spr_textboxBox/spr_textboxBox.yy",},},
     {"id":{"name":"show_console_message","path":"scripts/show_console_message/show_console_message.yy",},},
     {"id":{"name":"foreach","path":"scripts/foreach/foreach.yy",},},
@@ -348,6 +349,7 @@
     {"roomId":{"name":"room_testgame","path":"rooms/room_testgame/room_testgame.yy",},},
     {"roomId":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

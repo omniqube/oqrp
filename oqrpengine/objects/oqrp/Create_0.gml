@@ -21,6 +21,7 @@
 #region preinit
 gml_pragma("global", "oqrp_configmap()"); // YYC Compiler @startup
 global.nodebug_dev = true;
+global.debug_overlay = false;
 global.fullscreen = false;
 #endregion
 
@@ -92,7 +93,6 @@ instance_create_depth(0, 0, 0, d_sound_api);
 instance_create_depth(0, 0, 0, d_gamepad_api); 
 instance_create_depth(0, 0, 0, d_display_api);
 instance_create_depth(0, 0, 0, d_network_api);
-instance_create_depth(0, 0, 0, d_gj_api);
 #endregion
 
 EngineObjectList();
@@ -121,3 +121,4 @@ LoadScript("EN");
 
 engdraw = false;
 
+show_debug_overlay(global.debug_overlay, true);

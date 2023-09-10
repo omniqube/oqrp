@@ -1,0 +1,1 @@
+if (debug_mode || global.nodebug_dev) global.debug_overlay = !global.debug_overlay;

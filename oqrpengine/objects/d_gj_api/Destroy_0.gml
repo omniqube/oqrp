@@ -1,0 +1,1 @@
+gj_session_close();
