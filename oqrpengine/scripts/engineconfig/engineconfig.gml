@@ -10,7 +10,7 @@ function oqrp_configmap() {
 			version: 0,
 			build: 0,
 			oqupdater: {url: "", downloadurl: ""},
-			allow_mods: false
+			firstroom: mptestroom
 			
 		},
 		
@@ -28,13 +28,13 @@ function oqrp_configmap() {
 		
 		gj : { // GameJolt API Settings
 		
-			active: true,
+			active: false,
 			gameid: 647955,
 			key: "bda243824af22578e13f3338c61f7b21"
 			
 		},
 		
-		// Directory Settings - Do not change
+		// Directory Settings
 		dir : {
 			
 			engine: "oqrp\\",

@@ -107,7 +107,7 @@
     {"name":"room_name","order":3,"path":"rooms/room_name/room_name.yy",},
     {"name":"mp_testplayer","order":2,"path":"objects/mp_testplayer/mp_testplayer.yy",},
     {"name":"obj_textboxChoice","order":1,"path":"objects/obj_textboxChoice/obj_textboxChoice.yy",},
-    {"name":"mptestroom","order":2,"path":"rooms/mptestroom/mptestroom.yy",},
+    {"name":"mptestroom","order":5,"path":"rooms/mptestroom/mptestroom.yy",},
     {"name":"polygons","order":5,"path":"scripts/polygons/polygons.yy",},
     {"name":"toggle","order":6,"path":"scripts/toggle/toggle.yy",},
     {"name":"spr_basePlayerBlue","order":1,"path":"sprites/spr_basePlayerBlue/spr_basePlayerBlue.yy",},

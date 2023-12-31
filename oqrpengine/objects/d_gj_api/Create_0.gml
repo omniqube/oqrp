@@ -2,7 +2,7 @@
 // Version 1, for GameJolt Game API version 1.2
 // See https://gamejolt.com/game-api/doc/ for more information.
 
-if (not global.oqrp.gj.active) {instance_destroy();}
+//if (not global.oqrp.gj.active) {instance_destroy();}
 gj_apiversion = "v1_2"
 gj_online = false;
 gj_requests = ds_list_create();

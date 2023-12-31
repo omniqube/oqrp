@@ -1,1 +1,1 @@
-gj_session_close();
+//if (_premature) gj_session_close();

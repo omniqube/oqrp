@@ -9,9 +9,9 @@
 ╚██████╔╝╚██████╔╝██║  ██║██║         ███████╗██║ ╚████║╚██████╔╝██║██║ ╚████║███████╗
  ╚═════╝  ╚══▀▀═╝ ╚═╝  ╚═╝╚═╝         ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝
                                                                                                                                                                                                                                  
-								OQRP Engine
-							Developed by OmniQube
-							©2021-2023 OmniQube
+								 OQRP Engine
+						    Developed by OmniQube
+						     ©2021-2023 OmniQube
 		   
 */
 
@@ -114,7 +114,7 @@ map_timelines(global.oqrp_res.timelines);
 
 #region Auxilliary Functions (Filesystem)
 sv_init();
-if global.oqrp.game.allow_mods modScan();
+//if global.oqrp.game.allow_mods modScan();
 #endregion
 
 LoadScript("EN");
