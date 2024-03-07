@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "normalize",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Real",
-    "path": "folders/Scripts/oqrp/Math/Real.yy",
+  "$GMScript":"",
+  "%Name":"normalize",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"normalize",
+  "parent":{
+    "name":"Real",
+    "path":"folders/Scripts/oqrp/Math/Real.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

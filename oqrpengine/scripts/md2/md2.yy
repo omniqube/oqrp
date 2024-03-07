@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "md2",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Hashing",
-    "path": "folders/Scripts/oqrp/Utilities/Encryption/Hashing.yy",
+  "$GMScript":"",
+  "%Name":"md2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"md2",
+  "parent":{
+    "name":"Hashing",
+    "path":"folders/Scripts/oqrp/Utilities/Encryption/Hashing.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

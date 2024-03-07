@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "_d_reset",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Display",
-    "path": "folders/Scripts/oqrp/Console/Commands/Display.yy",
+  "$GMScript":"",
+  "%Name":"_d_reset",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_d_reset",
+  "parent":{
+    "name":"Display",
+    "path":"folders/Scripts/oqrp/Console/Commands/Display.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

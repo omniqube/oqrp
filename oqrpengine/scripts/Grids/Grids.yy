@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "Grids",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Data",
-    "path": "folders/Scripts/oqrp/Data.yy",
+  "$GMScript":"",
+  "%Name":"Grids",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Grids",
+  "parent":{
+    "name":"Data",
+    "path":"folders/Scripts/oqrp/Data.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

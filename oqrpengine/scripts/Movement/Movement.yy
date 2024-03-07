@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "Movement",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Math",
-    "path": "folders/Scripts/oqrp/Math.yy",
+  "$GMScript":"",
+  "%Name":"Movement",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Movement",
+  "parent":{
+    "name":"Math",
+    "path":"folders/Scripts/oqrp/Math.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

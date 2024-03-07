@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "_room",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Game",
-    "path": "folders/Scripts/oqrp/Console/Commands/Game.yy",
+  "$GMScript":"",
+  "%Name":"_room",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_room",
+  "parent":{
+    "name":"Game",
+    "path":"folders/Scripts/oqrp/Console/Commands/Game.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

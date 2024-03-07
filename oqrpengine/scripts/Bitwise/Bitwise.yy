@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "Bitwise",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Utilities",
-    "path": "folders/Scripts/oqrp/Utilities.yy",
+  "$GMScript":"",
+  "%Name":"Bitwise",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Bitwise",
+  "parent":{
+    "name":"Utilities",
+    "path":"folders/Scripts/oqrp/Utilities.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

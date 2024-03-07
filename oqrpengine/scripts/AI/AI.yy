@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "AI",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Utilities",
-    "path": "folders/Scripts/oqrp/Utilities.yy",
+  "$GMScript":"",
+  "%Name":"AI",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"AI",
+  "parent":{
+    "name":"Utilities",
+    "path":"folders/Scripts/oqrp/Utilities.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

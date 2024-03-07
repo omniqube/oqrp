@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "_mp_join",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Multiplayer",
-    "path": "folders/Scripts/oqrp/Console/Commands/Multiplayer.yy",
+  "$GMScript":"",
+  "%Name":"_mp_join",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_mp_join",
+  "parent":{
+    "name":"Multiplayer",
+    "path":"folders/Scripts/oqrp/Console/Commands/Multiplayer.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

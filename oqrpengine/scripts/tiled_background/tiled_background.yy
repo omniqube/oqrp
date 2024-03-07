@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "tiled_background",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Graphics",
-    "path": "folders/Scripts/oqrp/Graphics.yy",
+  "$GMScript":"",
+  "%Name":"tiled_background",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tiled_background",
+  "parent":{
+    "name":"Graphics",
+    "path":"folders/Scripts/oqrp/Graphics.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "GameJolt",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "oqrp",
-    "path": "folders/Scripts/oqrp.yy",
+  "$GMScript":"",
+  "%Name":"GameJolt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GameJolt",
+  "parent":{
+    "name":"oqrp",
+    "path":"folders/Scripts/oqrp.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

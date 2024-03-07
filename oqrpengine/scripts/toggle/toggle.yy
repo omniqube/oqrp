@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "toggle",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Utilities",
-    "path": "folders/Scripts/oqrp/Utilities.yy",
+  "$GMScript":"",
+  "%Name":"toggle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"toggle",
+  "parent":{
+    "name":"Utilities",
+    "path":"folders/Scripts/oqrp/Utilities.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

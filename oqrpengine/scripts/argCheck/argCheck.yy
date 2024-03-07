@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "argCheck",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Console",
-    "path": "folders/Scripts/oqrp/Console.yy",
+  "$GMScript":"",
+  "%Name":"argCheck",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"argCheck",
+  "parent":{
+    "name":"Console",
+    "path":"folders/Scripts/oqrp/Console.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

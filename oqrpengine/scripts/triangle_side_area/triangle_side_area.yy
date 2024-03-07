@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "triangle_side_area",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Geometry",
-    "path": "folders/Scripts/oqrp/Math/Geometry.yy",
+  "$GMScript":"",
+  "%Name":"triangle_side_area",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"triangle_side_area",
+  "parent":{
+    "name":"Geometry",
+    "path":"folders/Scripts/oqrp/Math/Geometry.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -10,7 +10,7 @@ function oqrp_configmap() {
 			version: 0,
 			build: 0,
 			oqupdater: {url: "", downloadurl: ""},
-			firstroom: mptestroom
+			firstroom: room_testgame
 			
 		},
 		

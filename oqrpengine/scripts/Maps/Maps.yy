@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "Maps",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Data",
-    "path": "folders/Scripts/oqrp/Data.yy",
+  "$GMScript":"",
+  "%Name":"Maps",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Maps",
+  "parent":{
+    "name":"Data",
+    "path":"folders/Scripts/oqrp/Data.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

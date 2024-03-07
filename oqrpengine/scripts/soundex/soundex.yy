@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "soundex",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Hashing",
-    "path": "folders/Scripts/oqrp/Utilities/Encryption/Hashing.yy",
+  "$GMScript":"",
+  "%Name":"soundex",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"soundex",
+  "parent":{
+    "name":"Hashing",
+    "path":"folders/Scripts/oqrp/Utilities/Encryption/Hashing.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

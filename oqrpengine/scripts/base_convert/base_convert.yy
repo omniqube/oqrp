@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "base_convert",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Conversion",
-    "path": "folders/Scripts/oqrp/Utilities/Conversion.yy",
+  "$GMScript":"",
+  "%Name":"base_convert",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"base_convert",
+  "parent":{
+    "name":"Conversion",
+    "path":"folders/Scripts/oqrp/Utilities/Conversion.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

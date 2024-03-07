@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "SphinxEncryptString",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Sphinx",
-    "path": "folders/Scripts/oqrp/Sphinx.yy",
+  "$GMScript":"",
+  "%Name":"SphinxEncryptString",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SphinxEncryptString",
+  "parent":{
+    "name":"Sphinx",
+    "path":"folders/Scripts/oqrp/Sphinx.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

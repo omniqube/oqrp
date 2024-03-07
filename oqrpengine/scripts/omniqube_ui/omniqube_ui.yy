@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "omniqube_ui",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "oqrp",
-    "path": "folders/Scripts/oqrp.yy",
+  "$GMScript":"",
+  "%Name":"omniqube_ui",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"omniqube_ui",
+  "parent":{
+    "name":"oqrp",
+    "path":"folders/Scripts/oqrp.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

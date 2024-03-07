@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "_demo_throwerror",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Demos",
-    "path": "folders/Scripts/oqrp/Console/Commands/Demos.yy",
+  "$GMScript":"",
+  "%Name":"_demo_throwerror",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_demo_throwerror",
+  "parent":{
+    "name":"Demos",
+    "path":"folders/Scripts/oqrp/Console/Commands/Demos.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

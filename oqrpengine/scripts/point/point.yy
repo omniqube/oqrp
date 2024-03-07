@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "point",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Geometry",
-    "path": "folders/Scripts/oqrp/Math/Geometry.yy",
+  "$GMScript":"",
+  "%Name":"point",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"point",
+  "parent":{
+    "name":"Geometry",
+    "path":"folders/Scripts/oqrp/Math/Geometry.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

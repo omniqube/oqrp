@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "crc16",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Hashing",
-    "path": "folders/Scripts/oqrp/Utilities/Encryption/Hashing.yy",
+  "$GMScript":"",
+  "%Name":"crc16",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"crc16",
+  "parent":{
+    "name":"Hashing",
+    "path":"folders/Scripts/oqrp/Utilities/Encryption/Hashing.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

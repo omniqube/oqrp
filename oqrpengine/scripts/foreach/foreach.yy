@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "foreach",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Utilities",
-    "path": "folders/Scripts/oqrp/Utilities.yy",
+  "$GMScript":"",
+  "%Name":"foreach",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"foreach",
+  "parent":{
+    "name":"Utilities",
+    "path":"folders/Scripts/oqrp/Utilities.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

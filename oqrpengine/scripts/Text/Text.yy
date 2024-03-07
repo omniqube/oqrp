@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "Text",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Graphics",
-    "path": "folders/Scripts/oqrp/Graphics.yy",
+  "$GMScript":"",
+  "%Name":"Text",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Text",
+  "parent":{
+    "name":"Graphics",
+    "path":"folders/Scripts/oqrp/Graphics.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

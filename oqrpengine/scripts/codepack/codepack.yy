@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "codepack",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Encryption",
-    "path": "folders/Scripts/oqrp/Utilities/Encryption.yy",
+  "$GMScript":"",
+  "%Name":"codepack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"codepack",
+  "parent":{
+    "name":"Encryption",
+    "path":"folders/Scripts/oqrp/Utilities/Encryption.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

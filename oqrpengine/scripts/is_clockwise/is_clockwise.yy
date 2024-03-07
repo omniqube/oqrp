@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "is_clockwise",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Math",
-    "path": "folders/Scripts/oqrp/Math.yy",
+  "$GMScript":"",
+  "%Name":"is_clockwise",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"is_clockwise",
+  "parent":{
+    "name":"Math",
+    "path":"folders/Scripts/oqrp/Math.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

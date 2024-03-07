@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "_cls",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Commands",
-    "path": "folders/Scripts/oqrp/Console/Commands.yy",
+  "$GMScript":"",
+  "%Name":"_cls",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_cls",
+  "parent":{
+    "name":"Commands",
+    "path":"folders/Scripts/oqrp/Console/Commands.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

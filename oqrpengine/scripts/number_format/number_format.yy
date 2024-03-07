@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "number_format",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Strings",
-    "path": "folders/Scripts/oqrp/Utilities/Strings.yy",
+  "$GMScript":"",
+  "%Name":"number_format",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"number_format",
+  "parent":{
+    "name":"Strings",
+    "path":"folders/Scripts/oqrp/Utilities/Strings.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "_driv_gamepad_reset",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Drivers",
-    "path": "folders/Scripts/oqrp/Console/Commands/Drivers.yy",
+  "$GMScript":"",
+  "%Name":"_driv_gamepad_reset",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_driv_gamepad_reset",
+  "parent":{
+    "name":"Drivers",
+    "path":"folders/Scripts/oqrp/Console/Commands/Drivers.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

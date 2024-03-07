@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "disconnect",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Multiplayer",
-    "path": "folders/Scripts/oqrp/Multiplayer.yy",
+  "$GMScript":"",
+  "%Name":"disconnect",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"disconnect",
+  "parent":{
+    "name":"Multiplayer",
+    "path":"folders/Scripts/oqrp/Multiplayer.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
