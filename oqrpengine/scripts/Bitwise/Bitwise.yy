@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"Bitwise",
   "isCompatibility":false,
   "isDnD":false,

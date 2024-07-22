@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"_mp_host",
   "isCompatibility":false,
   "isDnD":false,

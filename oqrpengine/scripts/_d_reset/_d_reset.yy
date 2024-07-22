@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"_d_reset",
   "isCompatibility":false,
   "isDnD":false,

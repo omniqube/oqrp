@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"omniqube_ui",
   "isCompatibility":false,
   "isDnD":false,

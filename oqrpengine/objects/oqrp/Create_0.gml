@@ -45,7 +45,7 @@ global.enableExperimentalFeatures = false;
 global.developerMode = false;
 global.introEnabled = true;
 }
-if (code_is_compiled()) {}
+if (code_is_compiled()) {global.compiled = true;}
 #endregion
 #region Catch Command Line Arguments
 // CATCH COMMAND LINE ARGUMENTS

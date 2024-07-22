@@ -52,3 +52,4 @@ function modLoad(modinimap) {
 // Still unfinished after 4 months :(
 
 // Update: it's been 16 months :(((
+// Update 2: 50 month milestone since this feature was first implemented!

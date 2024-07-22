@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"IEEE754double",
   "isCompatibility":false,
   "isDnD":false,

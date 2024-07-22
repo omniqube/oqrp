@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"vibrate",
   "isCompatibility":false,
   "isDnD":false,

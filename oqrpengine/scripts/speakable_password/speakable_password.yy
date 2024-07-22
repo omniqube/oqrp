@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"speakable_password",
   "isCompatibility":false,
   "isDnD":false,

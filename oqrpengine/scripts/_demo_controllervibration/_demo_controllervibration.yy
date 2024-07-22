@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"_demo_controllervibration",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"polygons",
   "isCompatibility":false,
   "isDnD":false,

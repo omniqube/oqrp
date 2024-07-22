@@ -1,4 +1,4 @@
-License file for material used in the OQRP Engine. For a license to the OQRP Engine itself, refer to the main LICENSE file.
+License file for material used in the OQRP Engine. For a license to the OQRP Engine itself, refer to the main LICENSE file in the repository.
 The OQRP Engine uses the GNU General Public License v2.
 
 1. OQRP Engine is a middleware engine. Games and software made using the OQRP Engine are strictly required 
@@ -9,6 +9,9 @@ and below. This also applies to modifications and expansions of said games and s
 The OQRP Engine is therefore subjected to and in accordance with, the YoYo Games legal documentation (https://www.yoyogames.com/en/legal)
 including the End User License Agreement (https://www.yoyogames.com/en/legal/eula), the Third Party Software List
 (https://www.yoyogames.com/en/legal/thirdpartysoftware) and the YoYo Games / GameMaker brand guidelines (https://www.yoyogames.com/en/legal/brand).
+By being an extension of GameMaker Studio, The OQRP Engine is subjected to and in accordance with GameMaker's Third Party Software policies
+(https://gamemaker.io/en/legal/thirdpartysoftware). YoYo Games is a subsidiary of Opera Norway AS. Therefore, the Opera Terms Of Serivce 
+(https://legal.opera.com/terms/) apply to this software and to the projects created with it.
 
 3. OQRP Engine may use public code or code snippets (modified or not) in some sections.
 
@@ -17,7 +20,7 @@ their own licenses under certain conditions.
 
 5. OQRP Engine uses code / assets from other OmniQube projects, which may be subjected to their own licenses.
 Games and software made using the OQRP Engine are cleared of subjection to these licenses, but only when using
-the code / assets provided by the OQRP Engine.
+the code / assets provided only by the OQRP Engine itself.
 
 6. OQRP Engine uses the Sphinx Encryption System by JujuAdams (https://github.com/JujuAdams/Sphinx)
 
@@ -26,7 +29,7 @@ the code / assets provided by the OQRP Engine.
 8. OQRP Engine uses code and code snippets (sometimes modified) from GMLScripts (GMLScripts.com)
 This is the GMLScripts license in its full version included as per its section one.
 
-			Copyright (c) 2007-2021, GMLscripts.com
+			Copyright (c) 2007-2023, GMLscripts.com
 
 	This software is provided 'as-is', without any express or implied
 	warranty. In no event will the authors be held liable for any damages

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"FileIO",
   "isCompatibility":false,
   "isDnD":false,

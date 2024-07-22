@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"Format_Converters",
   "isCompatibility":false,
   "isDnD":false,

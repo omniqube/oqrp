@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"keybinds",
   "isCompatibility":false,
   "isDnD":false,

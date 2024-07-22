@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"soundex",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"_driv_gamepad_reset",
   "isCompatibility":false,
   "isDnD":false,

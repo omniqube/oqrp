@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"map_sprites",
   "isCompatibility":false,
   "isDnD":false,

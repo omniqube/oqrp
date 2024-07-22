@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"SphinxDecryptString",
   "isCompatibility":false,
   "isDnD":false,

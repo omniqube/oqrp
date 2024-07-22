@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"disconnect",
   "isCompatibility":false,
   "isDnD":false,

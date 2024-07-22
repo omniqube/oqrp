@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"erf",
   "isCompatibility":false,
   "isDnD":false,

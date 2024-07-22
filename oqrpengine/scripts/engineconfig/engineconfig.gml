@@ -10,7 +10,7 @@ function oqrp_configmap() {
 			version: 0,
 			build: 0,
 			oqupdater: {url: "", downloadurl: ""},
-			firstroom: room_testgame
+			firstroom: testroom
 			
 		},
 		
@@ -21,7 +21,7 @@ function oqrp_configmap() {
 			dev: "OmniQube",
 			version: 230910,
 			fbsc: os_get_info(),
-			branch: "MP",
+			branch: "main",
 			allow_error_logging: false
 			
 		},

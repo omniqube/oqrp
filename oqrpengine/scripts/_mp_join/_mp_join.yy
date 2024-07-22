@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"_mp_join",
   "isCompatibility":false,
   "isDnD":false,

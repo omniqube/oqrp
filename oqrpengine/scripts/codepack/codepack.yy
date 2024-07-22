@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"codepack",
   "isCompatibility":false,
   "isDnD":false,

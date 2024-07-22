@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"ParametricFunctions",
   "isCompatibility":false,
   "isDnD":false,
