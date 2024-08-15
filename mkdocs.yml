@@ -2,9 +2,10 @@ site_name: 'The OQRP Engine Documentation'
 site_description: 'Documentation related to The OQRP Engine'
 site_author: 'OmniQube'
 
-theme: 'windmill-dark'
-theme.include_search_page: true
-theme.search_index_only: true
+theme: 'readthedocs'
+# theme: 'windmill-dark'
+# theme.include_search_page: true
+# theme.search_index_only: true
     
 extra:
     version: 'For Engine Build 230910'
