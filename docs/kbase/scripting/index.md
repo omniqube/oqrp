@@ -1,0 +1,3 @@
+# Scripting Reference
+---
+This is a reference guide for various functions of The OQRP Engine, more specifically functions and scripts to be used directly in the code of your project. Functions are documented along with their required and optional arguments and may include an example of their usage. Functions are divided into subcategories based on their origin and use case. Some functions may not be included in this documentation for security and licensing reasons.

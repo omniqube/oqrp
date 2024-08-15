@@ -1,0 +1,3 @@
+# Module Reference
+---
+This is a reference guide for modules contained within The OQRP Engine, what they are used for and examples of how to use them in your projects. Modules are divided into sub-categories based on their origin and use case. Make sure to read the [Included Modules & Licensing](/intro/licensing/) page before proceeding, as some modules may be purposefully left out of this documentation for security and licensing reasons.

@@ -1,0 +1,25 @@
+site_name: 'The OQRP Engine Documentation'
+site_description: 'Documentation related to The OQRP Engine'
+site_author: 'OmniQube'
+
+theme: 'windmill-dark'
+theme.include_search_page: true
+theme.search_index_only: true
+    
+extra:
+    version: 'For Engine Build 230910'
+    logo: oqrplogo.png
+    
+nav:
+    - Home: index.md
+    - Introduction:
+        - Overview: intro/overview.md
+        - Setup & Quick Start: intro/setup.md
+        - Included Modules & Licensing: intro/licensing.md
+        - Versions: intro/versions.md
+    - Development Principles: principles.md
+    - Knowledge Base:
+        - Scripting Reference:
+            - Home: kbase/scripting/index.md
+        - Module Reference:
+            - Home: kbase/modules/index.md
