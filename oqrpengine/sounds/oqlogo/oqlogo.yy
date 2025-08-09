@@ -9,7 +9,7 @@
   "bitRate":512,
   "compression":0,
   "conversionMode":0,
-  "duration":15.048,
+  "duration":15.018684,
   "name":"oqlogo",
   "parent":{
     "name":"oqrp",

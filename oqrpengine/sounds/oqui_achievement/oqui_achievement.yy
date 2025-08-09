@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":3.213146,
+  "duration":3.213152,
   "name":"oqui_achievement",
   "parent":{
     "name":"oqui",

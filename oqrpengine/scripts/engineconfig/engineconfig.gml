@@ -30,7 +30,7 @@ function oqrp_configmap() {
 		
 			active: false,
 			gameid: 647955,
-			key: "bda243824af22578e13f3338c61f7b21"
+			key: ""
 			
 		},
 		
